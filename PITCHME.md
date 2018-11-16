@@ -24,9 +24,9 @@
 ### Yes, @color[firebrick](Math).
 @snapend
 
-@snap[west]
+@snap[west snap-100]
 Functional programming bases its reasoning around math concepts.
-@ul
+@ul[](false)
 - Functions (the math ones)
 - Sets theory
 - Categories theory
