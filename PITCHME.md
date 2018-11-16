@@ -22,11 +22,15 @@
 ---
 @snap[north-west]
 ### Yes, @color[firebrick](Math).
+@snapend
 
+@snap[west]
 Functional programming bases its reasoning around math concepts.
 
+@ul
 * Functions (the math ones)
 * Sets theory
 * Categories theory
 * @color[#f26225](Lambda) calculus
+@ulend
 @snapend
