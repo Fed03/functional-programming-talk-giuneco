@@ -13,8 +13,7 @@
 @snapend
 
 @snap[south span-100]
-
-- Lorem ipsum dolor sit amet
+@ol[bullet-green](false)
 - Consectetur adipiscing elit
 - Sed do eiusmod tempor
 - Ut enim ad minim veniam
@@ -22,4 +21,5 @@
 - Excepteur sint occaecat
 - Cupidatat non proident
 - Sunt in culpa qui officia
-  @snapend
+@olend
+@snapend
