@@ -25,7 +25,7 @@
 @snapend
 
 @snap[west snap-100]
-Functional programming bases its reasoning around math concepts.
+<p>Functional programming bases its reasoning around math concepts.</p>
 @ul[](false)
 - Functions (the math ones)
 - Sets theory
