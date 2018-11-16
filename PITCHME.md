@@ -11,7 +11,7 @@
 - I am no expert in Functional Programming
 - There will be a little bit of @color[firebrick](math) concepts
 @ulend
----?image=template/img/bg/orange.jpg&position=right&size=38% 100%
+---?image=template/img/bg/orange.jpg&position=left&size=38% 100%
 @snap[west span-20]
 @size[1.5em](MATH!?!?!)
 @snapend
@@ -21,11 +21,12 @@
 @snapend
 ---
 @snap[north-west]
-###Yes, @color[firebrick](Math).
-@snapend
+### Yes, @color[firebrick](Math).
+
 Functional programming bases its reasoning around math concepts.
 
 * Functions (the math ones)
 * Sets theory
 * Categories theory
 * @color[#f26225](Lambda) calculus
+@snapend
