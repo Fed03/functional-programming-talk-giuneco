@@ -11,12 +11,12 @@
 - I am no expert in Functional Programming
 - There will be a little bit of @color[firebrick](math) concepts
 @ulend
----?image=template/img/bg/orange.jpg&position=left&size=38% 100%
-@snap[west span-20]
+---?image=template/img/bg/orange.jpg&position=left&size=35% 100%
+@snap[west]
 @size[1.5em](MATH!?!?!)
 @snapend
 
-@snap[east span-80]
+@snap[east span-75]
 ![angry](assets/angry-brian-opt.gif)
 @snapend
 ---
