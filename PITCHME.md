@@ -17,5 +17,5 @@
 @snapend
 
 @snap[west]
-![angry](assets/angry-brian.gif)
+![angry](assets/angry-brian-opt.gif)
 @snapend
