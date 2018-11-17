@@ -53,3 +53,5 @@ highlight : atom-one-dark
 # https://gitpitch.com/docs/layout-features/snap-layout-slide-transitions
 #
 transition : none
+
+mathjax : TeX-MML-AM_HTMLorMML-full

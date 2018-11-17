@@ -35,7 +35,7 @@
 Math Functions are simple relations between sets: from the @color[#6C8EBF](Domain) to the @color[#B85450](Codomain)
 @img[span-60 clean-img](assets/func-diagram.png)
 +++
-#### Function are mappings between an input and an output.
+#### Function are mappings between an @color[#6C8EBF](input) and an @color[#B85450](output).
 
 
 They can be represented using diagrams
@@ -93,3 +93,12 @@ pow2 = {
 print(pow2[-2])
 # 4
 ```
++++
+Naturally functions written like this are not very useful
+
+
+We need something more powerful to represent them
++++
+`\[
+  f(x) = \sum_{i=1}^{n} \int_{0}^{\sum_{k=1}^{p} \delta x} \frac{1}{x} dx
+\]`
