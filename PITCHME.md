@@ -101,7 +101,7 @@ print(pow2[-2])
 `\[
   f(x) = \sum_{i=1}^{n} \int_{0}^{\sum_{k=1}^{p} \delta x} \frac{1}{x} dx
 \]`
-+++?image=assets/jack-sparrow.jpg?size=cover
++++?image=assets/jack-sparrow.jpg&size=cover
 @snap[south]
 ## WUT?
 @snapend
