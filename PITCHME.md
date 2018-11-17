@@ -13,7 +13,7 @@
 @ulend
 ---
 <!-- ?image=template/img/bg/orange.jpg&position=left&size=35% 100% -->
-@size[1.5em](MATH!?!?!)
+# MATH!?!?!
 ![angry](assets/angry-brian-opt.gif)
 ---
 @snap[north-west]
