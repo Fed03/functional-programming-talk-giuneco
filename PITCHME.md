@@ -13,7 +13,7 @@
 @ulend
 ---
 <!-- ?image=template/img/bg/orange.jpg&position=left&size=35% 100% -->
-# MATH@color[firebrick](?)@color[#f26225](!)@color[firebrick](?)@color[#f26225](!)
+# @color[firebrick](MATH?!?!)
 ![angry](assets/angry-brian-opt.gif)
 ---
 @snap[north-west]
@@ -21,7 +21,7 @@
 @snapend
 
 @snap[west snap-100]
-<p>Functional programming bases its reasoning around math concepts.</p>
+### Functional programming bases its reasoning around math concepts.
 @ul[](false)
 - Functions (the math ones)
 - Sets theory
@@ -32,5 +32,43 @@
 ---
 # Functions
 +++
-Math Functions are simple relations between sets: from the @color[#6C8EBF](Domain) to the @color[#B85450](Codomain)
+### Math Functions are simple relations between sets: from the @color[#6C8EBF](Domain) to the @color[#B85450](Codomain)
 @img[span-60 clean-img](assets/func-diagram.png)
++++
+### Function are mappings between an input and an output.
+#### They can be represented using diagrams
++++
+### Graphs
+@img[fragment](assets/func-graph.png)
++++
+### Or even simple tables
+<table class="fragment">
+  <tr>
+    <th>Domain</th>
+    <th>Codomain</th>
+  </tr>
+  <tr>
+    <td>-3</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>-2</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>9</td>
+  </tr>
+</table>
