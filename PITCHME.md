@@ -11,14 +11,10 @@
 - I am no expert in Functional Programming
 - There will be a little bit of @color[firebrick](math) concepts
 @ulend
----?image=template/img/bg/orange.jpg&position=left&size=35% 100%
-@snap[west]
+---
+<!-- ?image=template/img/bg/orange.jpg&position=left&size=35% 100% -->
 @size[1.5em](MATH!?!?!)
-@snapend
-
-@snap[east span-75]
 ![angry](assets/angry-brian-opt.gif)
-@snapend
 ---
 @snap[north-west]
 ### Yes, @color[firebrick](Math).
@@ -33,3 +29,8 @@
 - @color[#f26225](Lambda) calculus
 @ulend
 @snapend
+---
+# Functions
++++
+Math Functions are simple relations between sets: from the @color[#6C8EBF](Domain) to the @color[#B85450](Codomain)
+![func-sets](assets/func-diagram.png)
