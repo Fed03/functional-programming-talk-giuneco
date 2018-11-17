@@ -3,3 +3,11 @@
   box-shadow: none;
   background: none;
 }
+.reveal section img.graph-img {
+  border-color: #b3b3b3;
+  box-shadow: none;
+  background-color: #fff;
+}
+.reveal table.text-center th, .reveal table.text-center td {
+  text-align: center !important;
+}

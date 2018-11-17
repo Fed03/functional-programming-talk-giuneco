@@ -21,7 +21,7 @@
 @snapend
 
 @snap[west snap-100]
-### Functional programming bases its reasoning around math concepts.
+<p>Functional programming bases its reasoning around math concepts.</p>
 @ul[](false)
 - Functions (the math ones)
 - Sets theory
@@ -32,20 +32,22 @@
 ---
 # Functions
 +++
-### Math Functions are simple relations between sets: from the @color[#6C8EBF](Domain) to the @color[#B85450](Codomain)
+Math Functions are simple relations between sets: from the @color[#6C8EBF](Domain) to the @color[#B85450](Codomain)
 @img[span-60 clean-img](assets/func-diagram.png)
 +++
-### Function are mappings between an input and an output.
-#### They can be represented using diagrams
+#### Function are mappings between an input and an output.
+
+
+They can be represented using diagrams
 +++
-### Graphs
-@img[fragment](assets/func-graph.png)
+#### Graphs
+@img[fragment graph-img](assets/func-graph.png)
 +++
-### Or even simple tables
-<table class="fragment">
+#### Or even simple tables
+<table class="fragment text-center">
   <tr>
-    <th>Domain</th>
-    <th>Codomain</th>
+    <th>@color[#6C8EBF](Domain)</th>
+    <th>@color[#B85450](Codomain)</th>
   </tr>
   <tr>
     <td>-3</td>
@@ -72,3 +74,18 @@
     <td>9</td>
   </tr>
 </table>
++++
+This tabular idea would allow us to write functions (programming ones) as simple Dictionaries
+```python
+pow2 = {
+  -3: 9,
+  -2: 4,
+  0: 0,
+  1: 1,
+  2: 4,
+  3: 9
+}
+
+print(pow2[-2])
+# 4
+```
