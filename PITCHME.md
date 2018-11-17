@@ -94,11 +94,14 @@ print(pow2[-2])
 # 4
 ```
 +++
-Naturally functions written like this are not very useful
-
-
-We need something more powerful to represent them
+#### Naturally functions written like this are not very useful
+#### We need something more powerful to represent them
 +++
+## Formulae!
 `\[
   f(x) = \sum_{i=1}^{n} \int_{0}^{\sum_{k=1}^{p} \delta x} \frac{1}{x} dx
 \]`
++++?image=assets/jack-sparrow.jpg?size=cover
+@snap[south]
+## WUT?
+@snapend
