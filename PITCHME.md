@@ -33,4 +33,4 @@
 # Functions
 +++
 Math Functions are simple relations between sets: from the @color[#6C8EBF](Domain) to the @color[#B85450](Codomain)
-![func-sets](assets/func-diagram.png)
+@img[span-60 clean-img](assets/func-diagram.png)
