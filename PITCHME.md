@@ -13,7 +13,7 @@
 @ulend
 ---
 <!-- ?image=template/img/bg/orange.jpg&position=left&size=35% 100% -->
-# MATH!?!?!
+# MATH@color[firebrick](?)@color[#f26225](!)@color[firebrick](?)@color[#f26225](!)
 ![angry](assets/angry-brian-opt.gif)
 ---
 @snap[north-west]
