@@ -102,6 +102,8 @@ print(pow2[-2])
   f(x) = \sum_{i=1}^{n} \int_{0}^{\sum_{k=1}^{p} \delta x} \frac{1}{x} dx
 \]`
 +++?image=assets/jack-sparrow.jpg&size=cover
-@snap[south]
-## WUT?
+@snap[west]
+## @color[#f26225](WUT?)
 @snapend
+---
+## Let's get @color[#4487f2](Pure)
