@@ -40,10 +40,14 @@ Math Functions are simple relations between sets: from the @color[#6C8EBF](Domai
 
 They can be represented using diagrams
 +++
-#### Graphs
+Grahps
+
+
 @img[fragment graph-img](assets/func-graph.png)
 +++
-#### Or even simple tables
+Or even simple tables
+
+
 <table class="fragment text-center">
   <tr>
     <th>@color[#6C8EBF](Domain)</th>
