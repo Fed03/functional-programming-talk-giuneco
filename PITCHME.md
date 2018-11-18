@@ -36,15 +36,12 @@ Math Functions are simple relations between sets: from the @color[#6C8EBF](Domai
 @img[span-60 clean-img](assets/func-diagram.png)
 +++
 #### Function are mappings between an @color[#6C8EBF](input) and an @color[#B85450](output).
-<br><br><br>
-
-
+<br>
 They can be represented using diagrams
 +++
 Grahps
-
-
-@img[fragment graph-img](assets/func-graph.png)
+<br>
+@img[graph-img](assets/func-graph.png)
 +++
 Or even simple tables
 
@@ -95,11 +92,11 @@ print(pow2[-2])
 # 4
 ```
 +++
-#### Naturally functions written like this are not very useful
-#### We need something more powerful to represent them
+Naturally functions written like this are not very useful
+<br>
+We need something more powerful to represent them
 +++
 ## Formulae!
-<br>
 <br>
 `\[
   f(x) = \sum_{i=1}^{n} \int_{0}^{\sum_{k=1}^{p} \delta x} \frac{1}{x} dx
