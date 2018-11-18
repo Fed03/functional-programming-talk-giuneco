@@ -36,6 +36,7 @@ Math Functions are simple relations between sets: from the @color[#6C8EBF](Domai
 @img[span-60 clean-img](assets/func-diagram.png)
 +++
 #### Function are mappings between an @color[#6C8EBF](input) and an @color[#B85450](output).
+<br><br><br>
 
 
 They can be represented using diagrams
@@ -98,6 +99,8 @@ print(pow2[-2])
 #### We need something more powerful to represent them
 +++
 ## Formulae!
+<br>
+<br>
 `\[
   f(x) = \sum_{i=1}^{n} \int_{0}^{\sum_{k=1}^{p} \delta x} \frac{1}{x} dx
 \]`
@@ -109,14 +112,14 @@ print(pow2[-2])
 ## Let's get @color[#4487f2](Pure)
 +++
 The foundations of FP are the so called @color[#4487f2](pure) functions.
-
+<br><br><br>
 A function is @color[#4487f2](pure) if it follows some policies that make it closely related to the concept of math functions.
 +++
 @snap[north-west]
 @color[#4487f2](Pure) Function Policies
 @snapend
 
-@snap[south-west list-content-concise span-100]
+@snap[west list-content-concise span-100]
 @ol
 - Without side-effects
 - Works only with its input (no access to outer context)
@@ -126,7 +129,7 @@ A function is @color[#4487f2](pure) if it follows some policies that make it clo
 @snapend
 +++
 @snap[north]
-### @color[#4487f2](Pure) functions are @color[#f26225](deterministic)
+### Pure functions are @color[#f26225](deterministic)
 @snapend
 
-@box[bg-orange text-white](Given points 1,2,3,4, all pure functions will always produce the same output when called with the same inputs)
+@box[bg-orange text-white rounded](Given points 1,2,3,4, all pure functions will always produce the same output when called with the same inputs)
