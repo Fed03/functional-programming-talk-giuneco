@@ -43,3 +43,10 @@
 .reveal pre code {
   padding: 10px 15px;
 }
+
+.reveal blockquote {
+    width: 100%;
+    padding: 17px;
+    border-radius: 17px;
+    background: rgba(255,255,255,0.2);
+}

@@ -142,6 +142,8 @@ A function is @color[#4487f2](pure) if it follows some policies that make it clo
 +++
 #### Determinism is what makes @color[#4487f2](pure) functions equivalent to the math ones
 
+<br>
+
 This equivalence will allow us to use powerful math tool when structuring our softwares.
 ---
 ## @color[#9e35de](Side)-effects
@@ -164,15 +166,15 @@ This equivalence will allow us to use powerful math tool when structuring our so
 @ulend
 @snapend
 +++
-#### In imperative programming languages (C#, Java, JS, ...), @color[#9e35de](side)-effects are everywhere
+#### In imperative programming languages<br>(C#, Java, JS, ...), @color[#9e35de](side)-effects are everywhere
 
 
 They make debugging really hard because anything can be potentially changed by anyone.
-<br>
+<br><br>
 Where do you look for bugs?
 ---
 #### So, at this point you think...
 +++?image=assets/doc-brown.jpg&size=cover
-@snap[north-east]
+@snap[north-west span-35]
 @quote[How the hell am I supposed to do anything useful with only pure functions?!?]
 @snapend
