@@ -107,3 +107,26 @@ print(pow2[-2])
 @snapend
 ---
 ## Let's get @color[#4487f2](Pure)
++++
+The foundations of FP are the so called @color[#4487f2](pure) functions.
+
+A function is @color[#4487f2](pure) if it follows some policies that make it closely related to the concept of math functions.
++++
+@snap[north-west]
+@color[#4487f2](Pure) Function Policies
+@snapend
+
+@snap[south-west list-content-concise span-100]
+@ol
+- Without side-effects
+- Works only with its input (no access to outer context)
+- Must have at least 1 param (0-arity not allowed)
+- Must return an output
+@olend
+@snapend
++++
+@snap[north]
+### @color[#4487f2](Pure) functions are @color[#f26225](deterministic)
+@snapend
+
+@box[bg-orange text-white](Given points 1,2,3,4, all pure functions will always produce the same output when called with the same inputs)

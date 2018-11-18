@@ -11,3 +11,7 @@
 .reveal table.text-center th, .reveal table.text-center td {
   text-align: center !important;
 }
+.list-content-concise li {
+  font-size: 1em;
+  margin:0 0 10px 0;
+}
