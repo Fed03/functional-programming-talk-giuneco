@@ -180,9 +180,9 @@ Where do you look for bugs?
 @quote[How the hell am I supposed to do anything useful with only pure functions?!?]
 @snapend
 +++?image=template/img/bg/white.jpg&position=left&size=50% 100%
-@snap[east split-screen-byline text-white]
+@snap[east split-screen-text text-white]
 #### FP is not only pure functions
-@ul[](false)
+@ul[split-screen-list](false)
 - All useful SW has to interact with the outside world
 - Try to confine side-effects
 - Segregate impure code from pure
@@ -190,6 +190,6 @@ Where do you look for bugs?
 @ulend
 @snapend
 
-@snap[west split-screen-img]
+@snap[west split-screen-fa]
 @box[bg-orange text-white rounded](@fa[puzzle-piece fa-5x])
 @snapend

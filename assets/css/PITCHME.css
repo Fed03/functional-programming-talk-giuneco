@@ -50,3 +50,19 @@
     border-radius: 10px;
     background: rgba(200, 200, 200, 0.5);
 }
+
+.split-screen-text {
+  width: 40%
+}
+.split-screen-list li {
+  font-style: .8em;
+  margin: 15px 0;
+}
+
+.split-screen-fa {
+  width: 25%;
+}
+
+.split-screen-fa #boxed-text {
+  padding-right: .5em;
+}
