@@ -104,9 +104,7 @@ Naturally functions written like this are not very useful
 We need something more powerful to represent them
 +++
 ## Formulae!
-
 <br>
-
 `\[
   f(x) = \sum_{i=1}^{n} \int_{0}^{\sum_{k=1}^{p} \delta x} \frac{1}{x} dx
 \]`
@@ -115,7 +113,7 @@ We need something more powerful to represent them
 ## @color[#f26225](WUT?)
 @snapend
 ---
-## Let's get @color[#4487f2](Pure)
+# Let's get @color[#4487f2](Pure)
 +++
 The foundations of FP are the so called @color[#4487f2](pure) functions.
 <br><br><br>
@@ -146,7 +144,7 @@ A function is @color[#4487f2](pure) if it follows some policies that make it clo
 
 This equivalence will allow us to use powerful math tool when structuring our softwares.
 ---
-## @color[#9e35de](Side)-effects
+# @color[#9e35de](Side)-effects
 +++
 #### @color[#9e35de](Side)-effects represent the interactions with the world outside the function
 +++
