@@ -2,7 +2,7 @@
 ### & @color[#f26225](Lambdas)
 ---
 # @color[#f26225](DISCLAIMER)
----?image=template/img/bg/orange.jpg&position=top&size=100% 20%
+---?image=assets/bg/orange.jpg&position=top&size=100% 20%
 @snap[north span-100]
 @size[1.5em](DISCLAIMER)
 @snapend
@@ -12,7 +12,7 @@
 - There will be a little bit of @color[firebrick](math) concepts
 @ulend
 ---
-<!-- ?image=template/img/bg/orange.jpg&position=left&size=35% 100% -->
+<!-- ?image=assets/bg/orange.jpg&position=left&size=35% 100% -->
 # @color[firebrick](MATH?!?!)
 ![angry](assets/angry-brian-opt.gif)
 ---
@@ -179,9 +179,9 @@ Where do you look for bugs?
 @snap[north-west span-35]
 @quote[How the hell am I supposed to do anything useful with only pure functions?!?]
 @snapend
-+++?image=template/img/bg/white.jpg&position=left&size=50% 100%
++++?image=assets/bg/white.jpg&position=left&size=50% 100%
 @snap[east split-screen-text text-white]
-#### @color[firebrick](FP) is not only pure functions
+#### @color[#f26225](FP) is not only pure functions
 @ul[split-screen-list](false)
 - All useful SW has to interact with the outside world
 - Try to confine @color[#9e35de](side)-effects
