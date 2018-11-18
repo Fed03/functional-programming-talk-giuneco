@@ -168,6 +168,7 @@ This equivalence will allow us to use powerful math tool when structuring our so
 +++
 #### In imperative programming languages<br>(C#, Java, JS, ...), @color[#9e35de](side)-effects are everywhere
 
+<br>
 
 They make debugging really hard because anything can be potentially changed by anyone.
 <br><br>
@@ -177,4 +178,18 @@ Where do you look for bugs?
 +++?image=assets/doc-brown.jpg&size=cover
 @snap[north-west span-35]
 @quote[How the hell am I supposed to do anything useful with only pure functions?!?]
+@snapend
++++?image=template/img/bg/white.jpg&position=left&size=100% 50%
+@snap[east split-screen-byline text-white]
+#### FP is not only pure functions
+@ul[](false)
+- All useful SW has to interact with the outside world
+- Try to confine side-effects
+- Segregate impure code from pure
+- Minimize the amount of impure code
+@ulend
+@snapend
+
+@snap[west split-screen-img]
+@fa[puzzle-piece fa-5x]
 @snapend
