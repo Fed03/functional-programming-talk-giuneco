@@ -191,5 +191,5 @@ Where do you look for bugs?
 @snapend
 
 @snap[west split-screen-img]
-@fa[puzzle-piece fa-5x]
+@box[bg-orange text-white rounded](@fa[puzzle-piece fa-5x])
 @snapend
