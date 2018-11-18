@@ -97,7 +97,7 @@ print(pow2[-2])
 # 4
 ```
 +++
-Naturally functions written like this are not very useful
+Obviously functions written like this are not very useful
 
 <br>
 
@@ -117,7 +117,7 @@ We need something more powerful to represent them
 +++
 The foundations of FP are the so called @color[#4487f2](pure) functions.
 <br><br><br>
-A function is @color[#4487f2](pure) if it follows some policies that make it closely related to the concept of math functions.
+A function is @color[#4487f2](pure) if it follows some policies that relates them closely to the concept of math functions.
 +++
 @snap[north-west]
 @color[#4487f2](Pure) Function Policies
@@ -142,14 +142,14 @@ A function is @color[#4487f2](pure) if it follows some policies that make it clo
 
 <br>
 
-This equivalence will allow us to use powerful math tool when structuring our softwares.
+This equivalence will allow us to use powerful math tools when structuring our softwares.
 ---
 # @color[#9e35de](Side)-effects
 +++
 #### @color[#9e35de](Side)-effects represent the interactions with the world outside the function
 +++
 @snap[north-west]
-@color[#9e35de](Side)-effects include but are not limited to
+@color[#9e35de](Side)-effects include, but are not limited to:
 @snapend
 
 @snap[west list-content-concise span-100]
@@ -172,7 +172,7 @@ They make debugging really hard because anything can be potentially changed by a
 <br><br>
 Where do you look for bugs?
 ---
-#### So, at this point you think...
+#### So, at this point you're thinking...
 +++?image=assets/doc-brown.jpg&size=cover
 @snap[north-west span-35]
 @quote[How the hell am I supposed to do anything useful with only pure functions?!?]
