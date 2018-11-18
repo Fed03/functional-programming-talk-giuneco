@@ -179,7 +179,7 @@ Where do you look for bugs?
 @snap[north-west span-35]
 @quote[How the hell am I supposed to do anything useful with only pure functions?!?]
 @snapend
-+++?image=template/img/bg/white.jpg&position=left&size=100% 50%
++++?image=template/img/bg/white.jpg&position=left&size=50% 100%
 @snap[east split-screen-byline text-white]
 #### FP is not only pure functions
 @ul[](false)
