@@ -179,13 +179,13 @@ Where do you look for bugs?
 @snap[north-west span-35]
 @quote[How the hell am I supposed to do anything useful with only pure functions?!?]
 @snapend
-+++?image=template/img/bg/white.jpg&position=left&size=38% 100%
++++?image=template/img/bg/white.jpg&position=left&size=50% 100%
 @snap[east split-screen-text text-white]
-#### FP is not only pure functions
+#### @color[firebrick](FP) is not only pure functions
 @ul[split-screen-list](false)
 - All useful SW has to interact with the outside world
-- Try to confine side-effects
-- Segregate impure code from pure
+- Try to confine @color[#9e35de](side)-effects
+- Segregate impure code from @color[#4487f2](pure)
 - Minimize the amount of impure code
 @ulend
 @snapend
