@@ -127,10 +127,10 @@ A function is @color[#4487f2](pure) if it follows some policies that make it clo
 
 @snap[west list-content-concise span-100]
 @ol
-- Without side-effects
 - Works only with its input (no access to outer context)
 - Must have at least 1 param (0-arity not allowed)
 - Must return an output
+- Without side-effects
 @olend
 @snapend
 +++
@@ -139,3 +139,40 @@ A function is @color[#4487f2](pure) if it follows some policies that make it clo
 @snapend
 
 @box[bg-orange text-white rounded](Given points 1,2,3,4, all pure functions will always produce the same output when called with the same inputs)
++++
+#### Determinism is what makes @color[#4487f2](pure) functions equivalent to the math ones
+
+This equivalence will allow us to use powerful math tool when structuring our softwares.
+---
+## @color[#9e35de](Side)-effects
++++
+#### @color[#9e35de](Side)-effects represent the interactions with the world outside the function
++++
+@snap[north-west]
+@color[#9e35de](Side)-effects include but are not limited to
+@snapend
+
+@snap[west list-content-concise span-100]
+@ul
+- Changing the File-System
+- Interacting with a Database
+- Making an HTTP request
+- Mutating an external state
+- Printing to screen/console or logging
+- Accessing the DOM
+- Accessing the underlying system
+@ulend
+@snapend
++++
+#### In imperative programming languages (C#, Java, JS, ...), @color[#9e35de](side)-effects are everywhere
+
+
+They make debugging really hard because anything can be potentially changed by anyone.
+<br>
+Where do you look for bugs?
+---
+#### So, at this point you think...
++++?image=assets/doc-brown.jpg&size=cover
+@snap[north-east]
+@quote[How the hell am I supposed to do anything useful with only pure functions?!?]
+@snapend
