@@ -113,6 +113,14 @@ We need something more powerful to represent them
 ## @color[#f26225](WUT?)
 @snapend
 ---
+@snap[noth-west]
+## What FP is all about?
+@snapend
+
+@snap[west]
+
+@snapend
+---
 # Let's get @color[#4487f2](Pure)
 +++
 The foundations of FP are the so called @color[#4487f2](pure) functions.
