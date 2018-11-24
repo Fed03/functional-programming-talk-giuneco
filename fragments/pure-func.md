@@ -13,6 +13,7 @@ A function is @color[#4487f2](pure) if it follows some policies that relates the
 - Works only with its input (no access to outer context)
 - Must have at least 1 param (0-arity not allowed)
 - Must return an output
+- Must declare its dependencies through parameters
 - Without side-effects
 @olend
 @snapend
