@@ -18,18 +18,18 @@
 #boxed-text-box > p {
   padding-top: 1em !important;
 }
-.reveal ol li {
+.reveal ol > li {
     margin-left: 0;
     padding-right: 0;
     list-style-type: none;
 }
 
-.reveal ol li {
+.reveal ol > li {
   position: relative;
   counter-increment: step-counter;
 }
 
-.reveal ol li::before {
+.reveal ol > li::before {
   color: white;
   font-size: 80%;
   font-weight: bold;
