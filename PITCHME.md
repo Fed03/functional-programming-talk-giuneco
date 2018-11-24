@@ -2,7 +2,7 @@
 ### & @color[#f26225](Lambdas)
 ---
 @snap[north-west]
-## We will scratch only the surface of FP
+#### We will scratch only the surface of FP
 @snapend
 
 @snap[west]
@@ -240,10 +240,16 @@ Where do you look for bugs?
 # Immutability is the new @color[mediumaquamarine](black)
 +++
 @quote[Forget math class! This is allowed in programming!]
+@snap[west span-50]
+
+
 ```python
 x = 5
 x = x + 2
 ```
+
+
+@snapend
 +++
 ### In FP it is @color[red](illegal)!
 +++
@@ -254,8 +260,8 @@ Luckly, "variables" are short living because they exist only inside functions.
 #### And functions are small, right?
 +++
 ### So...
-+++?image=assets/deadpool.jpg&position=left&size=65% 100%
-@snap[east]
++++?image=assets/deadpool.jpg&position=left&size=55% 100%
+@snap[east span-30]
 @quote[How the hell am I supposed to do anything without vars?!?!]
 @snapend
 +++
