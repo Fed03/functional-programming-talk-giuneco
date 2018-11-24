@@ -8,9 +8,11 @@ x = x + 2
 <br>
 @quote[Forget math class! This is allowed in programming!](Any imperative programming tutorial)
 +++
-### In FP it is @color[red](illegal)!
-+++
-@box[bg-orange text-white rounded](There are no variables in FP<br><br> Only constants)
+## In FP it is @color[red](illegal)!
+<br>
+There are no variables in FP
+
+Only constants
 +++
 Luckly, "variables" are short living because they exist only inside functions.
 <br><br>
