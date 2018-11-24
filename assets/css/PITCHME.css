@@ -25,10 +25,10 @@
   list-style-type: none;
   position: relative;
 }
-.reveal ol:not(.continue-list) > li{
+.reveal ol > li{
   counter-increment: step-counter;
 }
-.reveal ol.continue-list.from-3 > li{
+.reveal ol.continue-list.from-3 > li:first-child{
   counter-increment: step-counter 3;
 }
 
