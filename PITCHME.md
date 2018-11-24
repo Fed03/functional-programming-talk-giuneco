@@ -61,16 +61,16 @@ At this point you may ask why anyone would want to "relearn" how to code and wit
 @snap[north-west]
 Using @color[#4487f2](pure) functions and following the @color[mediumaquamarine](immutability) priciples has many benefits
 @snapend
-@snap[west list-content-concise]
+@snap[west list-content-concise span-100]
 @ol
 - PF are self-documenting (must declare their deps)
 - They are testable
 - They are cacheable (due to their deterministic nature)
-- They are reasonable
-  @ul[list-content-concise fragment](false)
-  - Knowing that they do not depend on anything external, decreases the cognitive load
-  - Referential transparency
-  @ulend
 - Thanks to immutability, PF are inherently thread-safe (parallelize all the things!)
+- They are reasonable
+@ul[list-content-concise fragment](false)
+- Knowing that they do not depend on anything external, decreases the cognitive load
+- Referential transparency
+@ulend
 @olend
 @snapend
