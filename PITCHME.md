@@ -84,5 +84,5 @@ Using @color[#4487f2](pure) functions and following the @color[#1dc579](immutabi
 ### Referential transparency
 @snapend
 @snap[west]
-Referential Transparency is a fancy term to describe that a pure function can safely be replaced by its expression.
+Referential Transparency is a fancy term to describe that a pure function can be safely replaced by its expression.
 @snapend
