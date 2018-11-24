@@ -68,9 +68,7 @@ Using @color[#4487f2](pure) functions and following the @color[mediumaquamarine]
 - They are cacheable (due to their deterministic nature)
 - Thanks to immutability, PF are inherently thread-safe (parallelize all the things!)
 - They are reasonable
-@ul[list-content-concise fragment](false)
-- Knowing that they do not depend on anything external, decreases the cognitive load
-- Referential transparency
-@ulend
+  - Knowing that they do not depend on anything external, decreases the cognitive load
+  - Referential transparency
 @olend
 @snapend
