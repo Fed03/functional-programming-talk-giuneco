@@ -79,7 +79,7 @@ Using @color[#4487f2](pure) functions and following the @color[#1dc579](immutabi
   @ulend
 @olend
 @snapend
-+++?images=assets/bg/orange.jpg&position=top&size=100% 30%
++++?image=assets/bg/orange.jpg&position=top&size=100% 30%
 @snap[north]
 ### Referential transparency
 @snapend
