@@ -63,10 +63,15 @@ Using @color[#4487f2](pure) functions and following the @color[mediumaquamarine]
 @snapend
 @snap[west list-content-concise span-100]
 @ol
-- PF are self-documenting (must declare their deps)
+- Pure functions are self-documenting (must declare their deps)
 - They are testable
 - They are cacheable (due to their deterministic nature)
-- Thanks to immutability, PF are inherently thread-safe (parallelize all the things!)
+@olend
+@snapend
++++
+@snap[west list-content-concise span-100]
+@ol[continue]
+- Thanks to immutability, pure functions are inherently thread-safe (parallelize all the things!)
 - They are reasonable
   @ul[list-content-concise fragment](false)
   - Knowing that they do not depend on anything external, decreases the cognitive load
