@@ -1,4 +1,4 @@
-# Immutability is the new @color[mediumaquamarine](black)
+# Immutability is the new @color[#1dc579](black)
 +++
 ```python
 x = 5

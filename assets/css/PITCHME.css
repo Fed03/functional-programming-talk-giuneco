@@ -28,8 +28,8 @@
 .reveal ol > li{
   counter-increment: step-counter;
 }
-.reveal ol.continue-list.from-3 > li:first-child{
-  counter-increment: step-counter 3;
+.reveal ol.continue-list.from-4 > li:first-child{
+  counter-increment: step-counter 4;
 }
 
 .reveal ol > li::before {

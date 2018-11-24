@@ -59,7 +59,7 @@ At this point you may ask why anyone would want to "relearn" how to code and wit
 @snapend
 +++
 @snap[north-west]
-Using @color[#4487f2](pure) functions and following the @color[mediumaquamarine](immutability) priciples has many benefits
+Using @color[#4487f2](pure) functions and following the @color[#1dc579](immutability) principles has many benefits
 @snapend
 @snap[west list-content-concise span-100]
 @ol
@@ -70,7 +70,7 @@ Using @color[#4487f2](pure) functions and following the @color[mediumaquamarine]
 @snapend
 +++
 @snap[west list-content-concise span-100]
-@ol[continue-list from-3]
+@ol[continue-list from-4]
 - Thanks to immutability, pure functions are inherently thread-safe (parallelize all the things!)
 - They are reasonable
   @ul[list-content-concise fragment](false)
@@ -78,4 +78,11 @@ Using @color[#4487f2](pure) functions and following the @color[mediumaquamarine]
   - Referential transparency
   @ulend
 @olend
+@snapend
++++
+@snap[north]
+### Referential transparency
+@snapend
+@snap[west]
+Referential Transparency is a fancy term to describe that a pure function can safely be replaced by its expression.
 @snapend
