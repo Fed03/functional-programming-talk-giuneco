@@ -1,6 +1,20 @@
 ## Functional Programming
 ### & @color[#f26225](Lambdas)
 ---
+@snap[noth-west]
+## We will scratch only the surface of FP
+@snapend
+
+@snap[west]
+@ol[list-content-concise span-100](false)
+- Pure functions
+- Immutability
+- Higher Order functions
+- Currying
+- Composition
+@olend
+@snapend
+---
 # @color[#f26225](DISCLAIMER)
 ---?image=assets/bg/orange.jpg&position=top&size=100% 20%
 @snap[north span-100]
@@ -8,6 +22,8 @@
 @snapend
 
 @ul
+- Learning FP is like starting from scratch
+- We will start over from square zero
 - I am no expert in Functional Programming
 - There will be a little bit of @color[firebrick](math) concepts
 @ulend
@@ -113,14 +129,6 @@ We need something more powerful to represent them
 ## @color[#f26225](WUT?)
 @snapend
 ---
-@snap[noth-west]
-## What FP is all about?
-@snapend
-
-@snap[west]
-
-@snapend
----
 # Let's get @color[#4487f2](Pure)
 +++
 The foundations of FP are the so called @color[#4487f2](pure) functions.
@@ -140,6 +148,25 @@ A function is @color[#4487f2](pure) if it follows some policies that relates the
 @olend
 @snapend
 +++
+#### Not pure
+```python
+number = 5
+def add5(x):
+  return number + x
+```
++++
+#### Also not pure
+```python
+def just10():
+  return 10
+```
++++
+#### Neither this
+```python
+def addNoReturn(x, y):
+  z = x + y
+```
++++
 @snap[north]
 ### Pure functions are @color[#f26225](deterministic)
 @snapend
@@ -151,6 +178,16 @@ A function is @color[#4487f2](pure) if it follows some policies that relates the
 <br>
 
 This equivalence will allow us to use powerful math tools when structuring our softwares.
++++
+#### This is @color[#4487f2](Pure)!
+```python
+def add(x, y):
+  return x + y
+
+print(add(1, 2)) # prints 3
+print(add(1, 2)) # still prints 3
+print(add(1, 2)) # WILL ALWAYS print 3
+```
 ---
 # @color[#9e35de](Side)-effects
 +++
@@ -198,4 +235,41 @@ Where do you look for bugs?
 
 @snap[west split-screen-fa]
 @box[bg-orange text-white rounded](@fa[puzzle-piece fa-5x])
+@snapend
+---
+# Immutability is the new @color[mediumaquamarine](black)
++++
+@snap[west span-50]
+```python
+x = 5
+x = x + 2
+```
+@snapend
+@snap[east span-50]
+@quote[Forget math class! This is allowed in programming!]
+@snapend
++++
+### In FP it is @color[red](illegal)!
++++
+@box[bg-orange text-white rounded](There are no variables in FP<br><br> Only constants)
++++
+Luckly, "variables" are short living because they exist only inside functions.
+<br><br>
+#### And functions are small, right?
+++++
+### So...
++++?image=assets/jackie-chan.jpg&size=cover
+@snap[north]
+@quote[How the hell am I supposed to do anything without vars?!?!]
+@snapend
++++
+@snap[north-west]
+#### We edit vars only for 2 reasons
+@snapend
+
+@snap[west list-content-concise span-100]
+@ol[fragment](false)
+- Multi-valued changes (i.e. object properties or array elements, list, ...)
+- Single-valued changes (i.e. loop counters)
+@olend
 @snapend
