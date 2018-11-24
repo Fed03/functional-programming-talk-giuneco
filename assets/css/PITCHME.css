@@ -77,8 +77,10 @@
   width: 50%;
 }
 
-.split-screen-fa #boxed-text {
-  padding-right: .5em;
+.split-screen-fa > div {
   width: 227px;
   margin-left: 5.6vh;
+}
+.split-screen-fa #boxed-text {
+  padding-right: .5em;
 }
