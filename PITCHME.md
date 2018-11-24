@@ -79,8 +79,8 @@ Using @color[#4487f2](pure) functions and following the @color[#1dc579](immutabi
   @ulend
 @olend
 @snapend
-+++?image=assets/bg/orange.jpg&position=top&size=100% 25%
-@snap[north]
++++?image=assets/bg/orange.jpg&position=top&size=100% 15%
+@snap[north span-100]
 ### Referential transparency
 @snapend
 @snap[west]
