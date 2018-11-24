@@ -19,7 +19,7 @@ Luckly, "variables" are short living because they exist only inside functions.
 @size[1.5em](And functions are small, right?)
 +++
 @size[1.9em](So...)
-+++?image=assets/deadpool.jpg&position=left&size=55% 100%
++++?image=assets/deadpool.jpg&position=left&size=auto 100%
 @snap[east span-30]
 @quote[How the hell am I supposed to do anything without vars?!?!]
 @snapend
