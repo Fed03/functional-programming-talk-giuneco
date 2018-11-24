@@ -239,17 +239,11 @@ Where do you look for bugs?
 ---
 # Immutability is the new @color[mediumaquamarine](black)
 +++
-@snap[west span-50]
-<div>
+@quote[Forget math class! This is allowed in programming!]
 ```python
 x = 5
 x = x + 2
 ```
-</div>
-@snapend
-@snap[east span-50]
-@quote[Forget math class! This is allowed in programming!]
-@snapend
 +++
 ### In FP it is @color[red](illegal)!
 +++
@@ -260,8 +254,8 @@ Luckly, "variables" are short living because they exist only inside functions.
 #### And functions are small, right?
 +++
 ### So...
-+++?image=assets/deadpool.jpg&size=cover
-@snap[north]
++++?image=assets/deadpool.jpg&position=left&size=65% 100%
+@snap[east]
 @quote[How the hell am I supposed to do anything without vars?!?!]
 @snapend
 +++
