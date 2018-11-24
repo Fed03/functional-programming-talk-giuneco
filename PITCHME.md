@@ -239,14 +239,12 @@ Where do you look for bugs?
 ---
 # Immutability is the new @color[mediumaquamarine](black)
 +++
-@quote[Forget math class! This is allowed in programming!]
-@snap[west span-50]
-<pre>
 ```python
 x = 5
 x = x + 2
 ```
-</pre>
+@snap[south]
+@quote[Forget math class! This is allowed in programming!](Any imperative programming tutorial)
 @snapend
 +++
 ### In FP it is @color[red](illegal)!
@@ -255,13 +253,7 @@ x = x + 2
 +++
 Luckly, "variables" are short living because they exist only inside functions.
 <br><br>
-#### And functions are small, right?
-+++
-### So...
-+++?image=assets/deadpool.jpg&position=left&size=55% 100%
-@snap[east span-30]
-@quote[How the hell am I supposed to do anything without vars?!?!]
-@snapend
+@size[1.5em](And functions are small, right?)
 +++
 @snap[north-west]
 #### We edit vars only for 2 reasons
@@ -272,4 +264,17 @@ Luckly, "variables" are short living because they exist only inside functions.
 - Multi-valued changes (i.e. object properties or array elements, list, ...)
 - Single-valued changes (i.e. loop counters)
 @olend
+@snapend
++++
+@snap[north-west]
+#### Solutions
+@snapend
+@box[bg-orange text-white demo-box-pad](Multi-valued changes#Everytime you need to change an object, create a copy with the updated values)
+<br>
+@box[bg-orange text-white demo-box-pad](Single-valued changes#Copying, and don't use any loop. Use recursion!)
++++
+@size[1.9em](So...)
++++?image=assets/deadpool.jpg&position=left&size=55% 100%
+@snap[east span-30]
+@quote[How the hell am I supposed to do anything without vars?!?!]
 @snapend
