@@ -239,13 +239,14 @@ Where do you look for bugs?
 ---
 # Immutability is the new @color[mediumaquamarine](black)
 +++
+@snap[nort-east span-45]
+@quote[Forget math class! This is allowed in programming!](Any imperative programming tutorial)
+@snapend
+<br>
 ```python
 x = 5
 x = x + 2
 ```
-@snap[south]
-@quote[Forget math class! This is allowed in programming!](Any imperative programming tutorial)
-@snapend
 +++
 ### In FP it is @color[red](illegal)!
 +++
@@ -254,6 +255,12 @@ x = x + 2
 Luckly, "variables" are short living because they exist only inside functions.
 <br><br>
 @size[1.5em](And functions are small, right?)
++++
+@size[1.9em](So...)
++++?image=assets/deadpool.jpg&position=left&size=55% 100%
+@snap[east span-30]
+@quote[How the hell am I supposed to do anything without vars?!?!]
+@snapend
 +++
 @snap[north-west]
 #### We edit vars only for 2 reasons
@@ -271,10 +278,28 @@ Luckly, "variables" are short living because they exist only inside functions.
 @snapend
 @box[bg-orange text-white demo-box-pad](Multi-valued changes#Everytime you need to change an object, create a copy with the updated values)
 <br>
-@box[bg-orange text-white demo-box-pad](Single-valued changes#Copying, and don't use any loop. Use recursion!)
+@box[bg-orange text-white demo-box-pad](Single-valued changes#Exactly in the same way, copying. And without using any loops!)
 +++
-@size[1.9em](So...)
-+++?image=assets/deadpool.jpg&position=left&size=55% 100%
-@snap[east span-30]
-@quote[How the hell am I supposed to do anything without vars?!?!]
-@snapend
+### What? No loops?!?!
+
+Hold on!
+
+It's not like we can't do loops, it's just that there are no specific loop constructs like **for**, **while**, **do**, etc.
++++
+### We use recursion!
+```python
+acc = 0
+for i in range(10):
+    acc = acc + i
+
+print(acc) # prints 45
+
+def sumRange(start, end, acc):
+    if (start >= end):
+        return acc
+    return sumRange(start + 1, end, acc + start)
+
+print(sumRange(0, 10, 0)) # prints 45
+```
+@[1-6](Simple loop construct)
+@[7-12](Without loop construct or variables (recursion))
