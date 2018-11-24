@@ -76,7 +76,7 @@ We need something more powerful to represent them
 `\[
   f(x) = \sum_{i=1}^{n} \int_{0}^{\sum_{k=1}^{p} \delta x} \frac{1}{x} dx
 \]`
-+++?image=assets/jack-sparrow.jpg&size=cover
++++?image=assets/jack-sparrow.png&size=cover
 @snap[west]
 ## @color[#f26225](WUT?)
 @snapend
