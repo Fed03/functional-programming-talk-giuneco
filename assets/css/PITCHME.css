@@ -25,7 +25,7 @@
   list-style-type: none;
   position: relative;
 }
-.reveal ol > li:not(.continue){
+.reveal ol:not(.continue) > li{
   counter-increment: step-counter;
 }
 .reveal ol > li::before {
