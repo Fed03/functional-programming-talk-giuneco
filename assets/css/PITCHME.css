@@ -74,9 +74,11 @@
 }
 
 .split-screen-fa {
-  width: 25%;
+  width: 50%;
 }
 
 .split-screen-fa #boxed-text {
   padding-right: .5em;
+  width: 227px;
+  margin-left: 5.6vh;
 }
