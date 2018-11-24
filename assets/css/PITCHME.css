@@ -18,17 +18,16 @@
 #boxed-text-box > p {
   padding-top: 1em !important;
 }
-.reveal ol > li {
-    margin-left: 0;
-    padding-right: 0;
-    list-style-type: none;
-}
-
-.reveal ol > li {
+.reveal ol > li,
+.revel ul > li {
+  margin-left: 0;
+  padding-right: 0;
+  list-style-type: none;
   position: relative;
+}
+.reveal ol > li{
   counter-increment: step-counter;
 }
-
 .reveal ol > li::before {
   color: white;
   font-size: 80%;
@@ -39,7 +38,11 @@
   background-color: #F26225;
   content: counter(step-counter);
 }
-
+.reveal ul > li::before{
+  color: #F26225;
+  content: "\25AA";
+  margin-right: 15px;
+}
 .reveal pre code {
   padding: 10px 15px;
 }
