@@ -44,6 +44,13 @@
   padding: 10px 15px;
 }
 
+.reveal .slides section .code-presenting-annotation {
+  background: rgb(242, 98, 37) !important;
+  width: 90%;
+  margin: 0 auto;
+  padding: 5px 0;
+}
+
 .reveal blockquote {
     width: 100%;
     padding: 15px;

@@ -28,7 +28,6 @@
 - There will be a little bit of @color[firebrick](math) concepts
 @ulend
 ---
-<!-- ?image=assets/bg/orange.jpg&position=left&size=35% 100% -->
 # @color[firebrick](MATH?!?!)
 ![angry](assets/angry-brian-opt.gif)
 ---
@@ -45,90 +44,7 @@
 - @color[#f26225](Lambda) calculus
 @ulend
 @snapend
----
-# Functions
-+++
-Math Functions are simple relations between sets: from the @color[#6C8EBF](Domain) to the @color[#B85450](Codomain)
-@img[span-60 clean-img](assets/func-diagram.png)
-+++
-#### Function are mappings between an @color[#6C8EBF](input) and an @color[#B85450](output).
-
-<br>
-
-They can be represented using diagrams
-+++
-Grahps
-
-<br>
-
-@img[graph-img](assets/func-graph.png)
-+++
-Or even simple tables
-
-
-<table class="fragment text-center">
-  <tr>
-    <th>@color[#6C8EBF](Domain)</th>
-    <th>@color[#B85450](Codomain)</th>
-  </tr>
-  <tr>
-    <td>-3</td>
-    <td>9</td>
-  </tr>
-  <tr>
-    <td>-2</td>
-    <td>4</td>
-  </tr>
-  <tr>
-    <td>0</td>
-    <td>0</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>4</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>9</td>
-  </tr>
-</table>
-+++
-This tabular idea would allow us to write functions (programming ones) as simple Dictionaries
-<br>
-```python
-pow2 = {
-  -3: 9,
-  -2: 4,
-  0: 0,
-  1: 1,
-  2: 4,
-  3: 9
-}
-
-print(pow2[-2])
-# 4
-```
-+++
-Obviously functions written like this are not very useful
-
-<br>
-
-We need something more powerful to represent them
-+++
-## Formulae!
-<br>
-`\[
-  f(x) = \sum_{i=1}^{n} \int_{0}^{\sum_{k=1}^{p} \delta x} \frac{1}{x} dx
-\]`
-+++?image=assets/jack-sparrow.jpg&size=cover
-@snap[west]
-## @color[#f26225](WUT?)
-@snapend
----
+---?include=fragments/math-functions/PITCHME.md
 # Let's get @color[#4487f2](Pure)
 +++
 The foundations of FP are the so called @color[#4487f2](pure) functions.
@@ -239,14 +155,13 @@ Where do you look for bugs?
 ---
 # Immutability is the new @color[mediumaquamarine](black)
 +++
-@snap[nort-east span-45]
-@quote[Forget math class! This is allowed in programming!](Any imperative programming tutorial)
-@snapend
-<br>
 ```python
 x = 5
 x = x + 2
 ```
+<br>
+<br>
+@quote[Forget math class! This is allowed in programming!](Any imperative programming tutorial)
 +++
 ### In FP it is @color[red](illegal)!
 +++
@@ -284,7 +199,7 @@ Luckly, "variables" are short living because they exist only inside functions.
 
 Hold on!
 
-It's not like we can't do loops, it's just that there are no specific loop constructs like **for**, **while**, **do**, etc.
+It's not like we can't do loops, it's just that there are no specific loop constructs like @color[goldenrod](**for**), @color[goldenrod](**while**), @color[goldenrod](**do**), etc.
 +++
 ### We use recursion!
 ```python
@@ -295,7 +210,7 @@ for i in range(10):
 print(acc) # prints 45
 
 def sumRange(start, end, acc):
-    if (start >= end):
+    if start >= end:
         return acc
     return sumRange(start + 1, end, acc + start)
 
@@ -303,3 +218,4 @@ print(sumRange(0, 10, 0)) # prints 45
 ```
 @[1-6](Simple loop construct)
 @[7-12](Without loop construct or variables (recursion))
+---
