@@ -25,9 +25,13 @@
   list-style-type: none;
   position: relative;
 }
-.reveal ol:not(.continue) > li{
+.reveal ol:not(.continue-list) > li{
   counter-increment: step-counter;
 }
+.reveal ol.continue-list.from-3 > li{
+  counter-increment: step-counter 3;
+}
+
 .reveal ol > li::before {
   color: white;
   font-size: 80%;

@@ -70,7 +70,7 @@ Using @color[#4487f2](pure) functions and following the @color[mediumaquamarine]
 @snapend
 +++
 @snap[west list-content-concise span-100]
-@ol[continue]
+@ol[continue-list from-3]
 - Thanks to immutability, pure functions are inherently thread-safe (parallelize all the things!)
 - They are reasonable
   @ul[list-content-concise fragment](false)
