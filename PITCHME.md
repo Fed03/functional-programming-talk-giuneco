@@ -1,7 +1,7 @@
 ## Functional Programming
 ### & @color[#f26225](Lambdas)
 ---
-@snap[noth-west]
+@snap[north-west]
 ## We will scratch only the surface of FP
 @snapend
 
@@ -240,10 +240,12 @@ Where do you look for bugs?
 # Immutability is the new @color[mediumaquamarine](black)
 +++
 @snap[west span-50]
+<div>
 ```python
 x = 5
 x = x + 2
 ```
+</div>
 @snapend
 @snap[east span-50]
 @quote[Forget math class! This is allowed in programming!]
@@ -256,9 +258,9 @@ x = x + 2
 Luckly, "variables" are short living because they exist only inside functions.
 <br><br>
 #### And functions are small, right?
-++++
++++
 ### So...
-+++?image=assets/jackie-chan.jpg&size=cover
++++?image=assets/deadpool.jpg&size=cover
 @snap[north]
 @quote[How the hell am I supposed to do anything without vars?!?!]
 @snapend
