@@ -2,7 +2,7 @@
 ### & @color[#f26225](Lambdas)
 ---
 @snap[north-west]
-#### We will scratch only the surface of FP
+### We will scratch only the surface of FP
 @snapend
 
 @snap[west]
@@ -241,14 +241,12 @@ Where do you look for bugs?
 +++
 @quote[Forget math class! This is allowed in programming!]
 @snap[west span-50]
-
-
+<pre>
 ```python
 x = 5
 x = x + 2
 ```
-
-
+</pre>
 @snapend
 +++
 ### In FP it is @color[red](illegal)!
