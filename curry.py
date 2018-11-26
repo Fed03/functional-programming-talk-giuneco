@@ -1,4 +1,4 @@
-from functools import partial 
+from functools import partial, reduce
 from inspect import signature
 
 def add(x,y):
@@ -15,6 +15,17 @@ def curry(fn):
   return _curry
 
 
-adC = curry(add)
-add3 = adC(3)
-print(add3(2))
+def call(args, fn):
+    try:
+        args = iter(args)
+    except TypeError:
+        args = (args,)
+    return fn(*args)
+
+
+def compose(*fns):
+    def _composed(*args):
+        val = reduce(call, reversed(fns), args)
+        return val
+
+    return _composed
