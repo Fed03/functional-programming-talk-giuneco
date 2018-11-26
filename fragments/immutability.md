@@ -41,9 +41,9 @@ Luckly, "variables" are short living because they exist only inside functions.
 @box[bg-orange text-white demo-box-pad](Multi-valued changes#Everytime you need to change an object, create a copy with the updated values)
 <br>
 @box[bg-orange text-white demo-box-pad](Single-valued changes#Exactly in the same way, copying. And without using any loops!)
-+++
++++?video=https://zippy.gfycat.com/NeatExemplaryBaleenwhale.webm
 ### What? No loops?!?!
-
++++
 Hold on!
 
 It's not like we can't do loops, it's just that there are no specific loop constructs like @color[goldenrod](**for**), @color[goldenrod](**while**), @color[goldenrod](**do**), etc.
