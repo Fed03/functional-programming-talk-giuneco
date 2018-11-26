@@ -41,7 +41,7 @@ Luckly, "variables" are short living because they exist only inside functions.
 @box[bg-orange text-white demo-box-pad](Multi-valued changes#Everytime you need to change an object, create a copy with the updated values)
 <br>
 @box[bg-orange text-white demo-box-pad](Single-valued changes#Exactly in the same way, copying. And without using any loops!)
-+++?video=https://zippy.gfycat.com/NeatExemplaryBaleenwhale.webm
++++?video=https://zippy.gfycat.com/NeatExemplaryBaleenwhale.webm&video-loop=loop
 ### What? No loops?!?!
 +++
 Hold on!
