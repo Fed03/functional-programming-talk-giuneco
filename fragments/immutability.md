@@ -43,7 +43,7 @@ Luckly, "variables" are short living because they exist only inside functions.
 @box[bg-orange text-white demo-box-pad](Single-valued changes#Exactly in the same way, copying. And without using any loops!)
 +++?video=https://zippy.gfycat.com/NeatExemplaryBaleenwhale.webm&loop=true&muted=true
 @snap[west text-orange span-40]
-### What? No loops?!?!
+### What? Now no loops?!?!
 @snapend
 +++
 Hold on!
