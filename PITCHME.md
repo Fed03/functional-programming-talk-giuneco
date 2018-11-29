@@ -27,9 +27,9 @@
 - I am no expert in Functional Programming
 - There will be a little bit of @color[firebrick](math) concepts
 @ulend
----
+---?image=https://media.giphy.com/media/IYIlvuWc21U4g/giphy.gif
 # @color[firebrick](MATH?!?!)
-![angry](assets/angry-brian-opt.gif)
+<!-- ∏![angry](assets/angry-brian-opt.gif) -->
 ---
 @snap[north-west]
 ### Yes, @color[firebrick](Math).
