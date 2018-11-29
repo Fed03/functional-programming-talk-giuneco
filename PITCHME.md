@@ -27,7 +27,7 @@
 - I am no expert in Functional Programming
 - There will be a little bit of @color[firebrick](math) concepts
 @ulend
----?image=https://media.giphy.com/media/IYIlvuWc21U4g/source.gif&size=auto 85%&position=bottom&color=firebrick
+---?image=https://media.giphy.com/media/IYIlvuWc21U4g/source.gif&size=100% auto&position=bottom&color=firebrick
 @snap[north text-white span-100]
 # MATH?!?!
 @snapend
