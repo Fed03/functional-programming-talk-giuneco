@@ -27,7 +27,7 @@
 - I am no expert in Functional Programming
 - There will be a little bit of @color[firebrick](math) concepts
 @ulend
----?image=https://media.giphy.com/media/IYIlvuWc21U4g/source.gif&size=auto 100%
+---?video=https://media.giphy.com/media/IYIlvuWc21U4g/giphy.mp4&loop=true
 # @color[firebrick](MATH?!?!)
 <!-- ∏![angry](assets/angry-brian-opt.gif) -->
 ---
