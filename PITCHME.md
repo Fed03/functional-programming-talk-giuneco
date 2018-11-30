@@ -107,15 +107,16 @@ def isSameTeam(npc1,npc2):
 def punch(attacker,target):
   return target if isSameTeam(attacker,target) else decrementHp(target)
 
-punch(sylvanas, malfurion) # {'name': 'malfurion', 'hp': 9, 'team': 'alliance'}
+punch(sylvanas, malfurion)
+# {'name': 'malfurion', 'hp': 9, 'team': 'alliance'}
 ```
-@[4-12](Pure functions)
-@[14](This call is simple to debug)
+@[4-13](Pure functions)
+@[15-16](This call is simple to debug)
 +++
 @snap[north-west span-100]
 #### @color[#f26225](Referential transparency)
 @snapend
-Using pure functions we can substitute them "equals for equals" to reason about the code. It's like manually evaluating code!
+<p class="align-left">Using pure functions we can substitute them "equals for equals" to reason about the code.<br>It's like manually evaluating code!</p>
 ```python
 def punch(attacker,target):
   return target if attacker["team"] == target["team"] else decrementHp(target)
@@ -134,7 +135,7 @@ def punch(attacker,target):
 @[1-2](1. Inline the function `isSameTeam`)
 @[4-5](2. Data is immutable. Sobstitute with actual values)
 @[7-8](3. The condition is false. Remove the branch)
-@[10-11](4. Inline the function `decrementHp`)
+@[10-13](4. Inline the function `decrementHp`)
 +++
 @snap[north-west span-100]
 #### @color[#f26225](Referential transparency)

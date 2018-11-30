@@ -1,3 +1,6 @@
+p.align-left{
+  text-align: left;
+}
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6{
   color: inherit;
 }
@@ -52,6 +55,8 @@
 }
 .reveal pre code {
   padding: 10px 15px;
+  max-height: none;
+  font-style: 90%;
 }
 
 .reveal .slides section .code-presenting-annotation {
