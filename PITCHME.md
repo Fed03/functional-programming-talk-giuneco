@@ -69,3 +69,14 @@ This characteristic of FP languages, grants us the ability to use what the essen
 <p>that is, a function that takes another function as input and returns its derivative function</p>
 </div>
 @snapend
++++
+@snap[north-west span-100]
+#### Higher Order functions example
+@snapend
+```python
+def makeAdder(constantValue):
+  def adder(value):
+    return constantValue + value
+
+  return adder
+```
