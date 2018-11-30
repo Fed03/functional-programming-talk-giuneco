@@ -61,12 +61,14 @@ This characteristic of FP languages, grants us the ability to use what the essen
 @snap[north-west span-100]
 #### Higher Order functions
 @snapend
-@snap[west small span-100]
+@snap[west span-100]
 <p>Higher Order functions are just functions that take another function as parameters, return a new function or both.</p>
 <br>
+<div class="small">
 <p>A math example is the Differentiation</p>
 `\[
   \frac{df(x)}{dx}
 \]`
 <p>that is, a function that takes another function as input and returns its derivative function</p>
+</div>
 @snapend
