@@ -80,3 +80,6 @@ def makeAdder(constantValue):
 
   return adder
 ```
+
+"makeAdder" returns a function, so it is a higher order one.
+<p class="fragment">Note that the internal defined function is a CLOSURE</p>
