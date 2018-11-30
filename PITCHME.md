@@ -133,10 +133,13 @@ def punch(attacker,target):
 @[4-5](2. Data is immutable. Sobstitute with actual values)
 @[7-8](3. The condition is false. Remove the branch)
 @[10-13](4. Inline the function `decrementHp`)
+<br><br>
 +++?image=assets/bg/orange.jpg&position=top&size=100% 16%
 @snap[north span-100]
 ### Referential transparency
 @snapend
+@snap[west span-100]
 This property is exceptional for refactoring and understanding code.
 
 In fact, we use this technique everyday to refactor someone else's code.
+@snapend
