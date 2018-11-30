@@ -57,11 +57,13 @@ p.small {
   content: "\25AA";
   margin-right: 15px;
 }
+.reveal pre {
+  width: 100%;
+}
 .reveal pre code {
   padding: 10px 15px;
   max-height: none;
   font-size: 90%;
-  width: 100%;
 }
 
 .reveal .slides section .code-presenting-annotation {
