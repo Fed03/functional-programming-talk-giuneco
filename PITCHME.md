@@ -29,7 +29,7 @@
 @ulend
 ---?image=https://media.giphy.com/media/IYIlvuWc21U4g/source.gif&size=auto 100%
 @snap[north-west span-100]
-### @color[firebrick](MATH?!?!)
+## @color[firebrick](MATH?!?!)
 @snapend
 <!-- ∏![angry](assets/angry-brian-opt.gif) -->
 ---
