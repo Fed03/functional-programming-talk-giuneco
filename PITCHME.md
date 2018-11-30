@@ -62,18 +62,12 @@ This characteristic of FP languages, grants us the ability to use what the essen
 #### Higher Order functions
 @snapend
 @snap[west span-100]
-Higher Order functions are just functions that take another function as parameters, return a new function or both.
-
-
+<p>Higher Order functions are just functions that take another function as parameters, return a new function or both.</p>
 <div class="small">
-A math example is the Differentiation
-
-
+<p>A math example is the Differentiation</p>
 `\[
   \frac{df(x)}{dx}
 \]`
-
-
-that is, a function that takes another function as input and returns its derivative function
+<p>that is, a function that takes another function as input and returns its derivative function</p>
 </div>
 @snapend
