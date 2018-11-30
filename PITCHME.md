@@ -55,15 +55,20 @@
 # Higher Order functions
 +++
 @box[bg-orange text-white](In FP, functions are first-class citizens. That is, they are a normal data-type.<br>Therefore, they can be passed as params, assigned to vars, stored in arrays...)
+<br><br>
 This characteristic of FP languages, grants us the ability to use what the essence of FP is.
 +++
-@snap[north span-100]
-### Higher Order functions
+@snap[north-west span-100]
+#### Higher Order functions
 @snapend
+@snap[west span-100]
 Higher Order functions are just functions that take another function as parameters, return a new function or both.
-
+<br><br>
 A math example of this class of functions is the Differentiation
+<br>
 `\[
   \frac{df(x)}{dx}
 \]`
+<br>
 that is, a function that takes a general function as input and returns its derivative function
+@snapend
