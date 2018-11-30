@@ -81,5 +81,5 @@ def makeAdder(constantValue):
   return adder
 ```
 
-"makeAdder" returns a function, so it is a higher order one.
+`makeAdder` is a higher order function because returns another function.
 <p class="fragment">Note that the internal defined function is a CLOSURE</p>
