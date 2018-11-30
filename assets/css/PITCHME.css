@@ -1,9 +1,9 @@
 p.align-left{
   text-align: left;
 }
-.small {
-  line-height: 1.1;
-  font-size: .8em;
+reveal .small {
+  line-height: 1.1 !important;
+  font-size: .8em !important;
 }
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6{
   color: inherit;
