@@ -116,7 +116,7 @@ punch(sylvanas, malfurion)
 @snap[north-west span-100]
 #### @color[#f26225](Referential transparency)
 @snapend
-<p class="align-left">Using pure functions we can substitute them "equals for equals" to reason about the code.<br>It's like manually evaluating code!</p>
+<p class="align-left small">Using pure functions we can substitute them "equals for equals" to reason about the code.<br>It's like manually evaluating code!</p>
 ```python
 def punch(attacker,target):
   return target if attacker["team"] == target["team"] else decrementHp(target)
