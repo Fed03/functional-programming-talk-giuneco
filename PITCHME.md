@@ -60,7 +60,8 @@ This characteristic of FP languages, grants us the ability to use what the essen
 +++
 @snap[west span-100]
 @box[bg-orange text-white](Higher Order functions are just functions that take another function as parameters, return a new function or both.)
-<div class="small">
+<br>
+<div class="small fragment">
 <p>A math example is the Differentiation</p>
 `\[
   \frac{df(x)}{dx}
