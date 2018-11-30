@@ -1,6 +1,10 @@
 p.align-left{
   text-align: left;
 }
+p.small {
+  line-height: 1.1;
+  font-size: .8em;
+}
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6{
   color: inherit;
 }
@@ -56,12 +60,12 @@ p.align-left{
 .reveal pre code {
   padding: 10px 15px;
   max-height: none;
-  font-style: 90%;
+  font-size: 90%;
+  width: 100%;
 }
 
 .reveal .slides section .code-presenting-annotation {
   background: rgb(242, 98, 37) !important;
-  width: 90%;
   margin: 0 auto;
   padding: 5px 0;
 }
