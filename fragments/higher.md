@@ -60,4 +60,5 @@ things = [1,2,3,4]
 newThings = map(lambda x: x * 10, things) # [10,20,30,40]
 sum = reduce(lambda x, y: x + y, things, 0) # 10
 ```
-@box[bg-orange](Each of these functions let us do common operations on arrays without having to write boilerplate loops)
+
+Each of these functions let us do common operations on arrays without having to write boilerplate loops
