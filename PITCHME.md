@@ -54,7 +54,7 @@
 ---
 @img[clean-img lambda](assets/lambda-logo-2.png)
 ### @color[#f26225](Lambdas)
-+++?image=assets/half-life.png&size=cover
++++?image=assets/half-life.png&size=100% auto
 @snap[north-west span-100]
 #### `\(\lambda\)` Calculus 101
 @snapend
