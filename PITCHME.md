@@ -87,8 +87,8 @@ print(add10(20)) # 30
 `makeAdder` is a higher order function because returns another function.
 <p class="fragment">Note that the internal defined function is a CLOSURE</p>
 +++
-@snap[north-west list-content-concise span-100]
-Properties of higher order functions:
+@snap[west list-content-concise span-100]
+<p>Properties of higher order functions:</p>
 @ul
 - Expressive and modular code
 - Don't repeat yourself (DRY)
