@@ -58,25 +58,26 @@
 @snap[north-west span-100]
 #### `\(\lambda\)` Calculus 101
 @snapend
+<div class="small">
 @quote[Lambda calculus is a formal system in math logic for expressing computation based on function abstraction using variable binding and substitution. It is a universal model of computation that can be used to simulate any Turing machine.](Wikipedia)
-+++
-@snap[north-west span-100]
-#### `\(\lambda\)` Calculus 101
-@snapend
+</div>
 
 `\[
   \lambda x.E
 \]`
 
 This is a @color[#f37b21](lambda) abstraction, where `\(E\)` is an expression and `\(x\)` is a variable.
-
++++
+@snap[north-west span-100]
+#### `\(\lambda\)` Calculus 101
+@snapend
 The following lambda term
 
 `\[
-  (\lambda x.\ + x\quad5)\ 3
+  (\lambda x.\ +\ x\ 5)\ 3
 \]`
 
-means that `\(x\)` is bound to `\(3\)`, so we replace any occurence of `\(x\)` inside the expression with `\(3\)`. After we can evaluate the expression body with a result of `\(8\)`.
+means that `\(x\)` is bound to `\(3\)`, so any occurrence of `\(x\)` inside the expression can be replaced with `\(3\)`. Therefore, the expression body can be evaluated with a result of `\(8\)`.
 +++
 @snap[north-west span-100]
 #### `\(\lambda\)` Calculus 101
