@@ -38,7 +38,7 @@ def addNoReturn(x, y):
 ```
 +++
 @snap[north]
-### Pure functions are @color[#f37b21](deterministic)
+### Pure functions are @color[#f26225](deterministic)
 @snapend
 
 @box[bg-orange text-white rounded](Given points 1,2,3,4, all pure functions will always produce the same output when called with the same inputs)

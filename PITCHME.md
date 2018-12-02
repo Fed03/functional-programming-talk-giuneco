@@ -1,5 +1,5 @@
 ## Functional Programming
-### & @color[#f37b21](Lambdas)
+### & @color[#f26225](Lambdas)
 ---
 @snap[north-west]
 ### We will scratch only the surface of FP
@@ -15,7 +15,7 @@
 @olend
 @snapend
 ---
-# @color[#f37b21](DISCLAIMER)
+# @color[#f26225](DISCLAIMER)
 ---?image=assets/bg/orange.jpg&position=top&size=100% 20%
 @snap[north span-100]
 @size[1.5em](DISCLAIMER)
@@ -43,7 +43,7 @@
 - Functions (the math ones)
 - Sets theory
 - Categories theory
-- @color[#f37b21](Lambda) calculus
+- @color[#f26225](Lambda) calculus
 @ulend
 @snapend
 ---?include=fragments/math-functions.md
@@ -53,8 +53,8 @@
 ---?include=fragments/benefits.md
 ---
 @img[clean-img lambda](assets/lambda-logo.png)
-### @color[#f37b21](Lambdas)
-+++
+### @color[#f26225](Lambdas)
++++?image=assets/bg/orange.jpg&position=top&size=100% 16%
 @snap[north-west span-100]
 #### `\(\lambda\)` Calculus 101
 @snapend
@@ -66,8 +66,8 @@
   \lambda x.E
 \]`
 
-This is a @color[#f37b21](lambda) abstraction, where `\(E\)` is an expression and `\(x\)` is a variable.
-+++
+This is a lambda @color[#f26225](abstraction) , where `\(E\)` is an expression and `\(x\)` is a variable.
++++?image=assets/bg/orange.jpg&position=top&size=100% 16%
 @snap[north-west span-100]
 #### `\(\lambda\)` Calculus 101
 @snapend
@@ -78,9 +78,9 @@ The following lambda term
 \]`
 
 means that `\(x\)` is bound to `\(3\)`, so any occurrence of `\(x\)` inside the expression can be replaced with `\(3\)`. Therefore, the expression body can be evaluated with a result of `\(8\)`.
-+++
++++?image=assets/bg/orange.jpg&position=top&size=100% 16%
 @snap[north-west span-100]
 #### `\(\lambda\)` Calculus 101
 @snapend
-@color[#f37b21](`\(\lambda\)`) calculus, therefore, resembles a function definition, where `\(E\)` is the function body and `\(\lambda x.\)` its parameter.
+`\(\lambda\)` calculus, therefore, resembles a function definition, where `\(E\)` is the function body and `\(\lambda x.\)` its parameter.
 ---?include=fragments/higher.md

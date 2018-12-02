@@ -78,5 +78,5 @@ We need something more powerful to represent them
 \]`
 +++?image=assets/jack-sparrow.png&size=cover
 @snap[west]
-## @color[#f37b21](WUT?)
+## @color[#f26225](WUT?)
 @snapend

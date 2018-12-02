@@ -215,7 +215,7 @@
   padding: 3px 10px;
   margin-right: 15px;
   border-radius: 3px;
-  background-color: #f37b21;
+  background-color: #f26225;
   content: counter(step-counter);
 }
 
