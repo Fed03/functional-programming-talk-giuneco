@@ -103,20 +103,26 @@ They are often called anonymous functions, although this definition is not compl
 #### Examples
 <div class="fragment">
 C#
+
 ```C#
 Function<string, int> Length = (string) => string.Length
 ```
+
 </div>
 <div class="fragment">
 Javascript
+
 ```javascript
 var Length = (string) => string.length
 ```
+
 </div>
 <div class="fragment">
 Python
+
 ```python
 length = lambda string: len(string)
 ```
+
 </div>
 ---?include=fragments/higher.md
