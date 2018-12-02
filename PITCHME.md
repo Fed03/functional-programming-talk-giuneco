@@ -79,7 +79,32 @@ def makeAdder(constantValue):
     return constantValue + value
 
   return adder
+
+add10 = makeAdder(10)
+print(add10(20)) # 30
 ```
 
 `makeAdder` is a higher order function because returns another function.
 <p class="fragment">Note that the internal defined function is a CLOSURE</p>
++++
+@snap[north-west list-content-concise span-100]
+Properties of higher order functions:
+@ul
+- Expressive and modular code
+- Don't repeat yourself (DRY)
+- Loop-less code
+@ulend
+@snapend
++++
+In FP, loop constructs does not exist.<br>They are replaced by special high order functions that guarantee purity and immutability, besides being more expressive.
+
+There exist many of them but they are all just different mixes of two base functions
++++
+### Map - Reduce
+```python
+things = [1,2,3,4]
+
+newThings = map(lambda x: x * 10, things) # [10,20,30,40]
+sum = reduce(lambda x, y: x + y, things) # 10
+```
+@box[bg-orange](Each of these functions let us do common operations on arrays without having to write boilerplate loops)
