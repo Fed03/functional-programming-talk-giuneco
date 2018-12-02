@@ -52,7 +52,7 @@
 ---?include=fragments/immutability.md
 ---?include=fragments/benefits.md
 ---
-# Higher Order functions
+# Higher @color[#4caf50](Order) functions
 +++
 @box[bg-orange text-white](In FP, functions are first-class citizens. That is, they are a normal data-type.<br>Therefore, they can be passed as params, assigned to vars, stored in arrays...)
 <br><br>
@@ -71,7 +71,7 @@ This characteristic of FP languages, grants us the ability to use what the essen
 @snapend
 +++
 @snap[north-west span-100]
-#### Higher Order functions example
+#### Higher @color[#4caf50](Order) functions example
 @snapend
 ```python
 def makeAdder(constantValue):
@@ -88,7 +88,7 @@ print(add10(20)) # 30
 <p class="fragment">Note that the internal defined function is a CLOSURE</p>
 +++
 @snap[west list-content-concise span-100]
-<p>Properties of higher order functions:</p>
+<p>Properties of higher @color[#4caf50](order) functions:</p>
 @ul
 - Expressive and modular code
 - Don't repeat yourself (DRY)
@@ -96,20 +96,20 @@ print(add10(20)) # 30
 @ulend
 @snapend
 +++
-In FP, loop constructs does not exist.<br>
+In FP, loop constructs does not exist.<br><br>
 
-They are replaced by special high order functions that guarantee purity and immutability, besides being more expressive.<br><br>
+They are replaced by special high @color[#4caf50](order) functions that guarantee purity and immutability, besides being more expressive.<br><br><br>
 
 There exist many of them but they are all just different mixes of two base functions
 +++?image=assets/bg/orange.jpg&position=top&size=100% 16%
 @snap[north span-100]
-### Map - Reduce
+### Map & Reduce
 @snapend
 
 ```python
 things = [1,2,3,4]
 
 newThings = map(lambda x: x * 10, things) # [10,20,30,40]
-sum = reduce(lambda x, y: x + y, things) # 10
+sum = reduce(lambda x, y: x + y, things, 0) # 10
 ```
 @box[bg-orange](Each of these functions let us do common operations on arrays without having to write boilerplate loops)
