@@ -67,22 +67,24 @@
 \]`
 
 This is a lambda abstraction, where `\(E\)` is an expression and `\(x\)` is a variable.
-+++?image=assets/bg/orange.jpg&position=top&size=100% 16%
++++?image=assets/bg/orange.jpg&position=top&size=100% 14%
 @snap[north-west span-100]
 #### `\(\lambda\)` Calculus 101
 @snapend
 @snap[center span-100]
-The following lambda term
+<p>The following lambda term</p>
 
 `\[
   (\lambda x.\ +\ x\ 5)\ 3
 \]`
 
-means that `\(x\)` is bound to `\(3\)`, so any occurrence of `\(x\)` inside the expression can be replaced with `\(3\)`. Therefore, the expression body can be evaluated with a result of `\(8\)`.
+<p>means that `\(x\)` is bound to `\(3\)`, so any occurrence of `\(x\)` inside the expression can be replaced with `\(3\)`. Therefore, the expression body can be evaluated with a result of `\(8\)`.</p>
 @snapend
-+++?image=assets/bg/orange.jpg&position=top&size=100% 16%
++++?image=assets/bg/orange.jpg&position=top&size=100% 14%
 @snap[north-west span-100]
 #### `\(\lambda\)` Calculus 101
 @snapend
+@snap[center span-100]
 `\(\lambda\)` calculus, therefore, resembles a function definition, where `\(E\)` is the function body and `\(\lambda x.\)` its parameter.
+@snapend
 ---?include=fragments/higher.md
