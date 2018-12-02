@@ -60,13 +60,14 @@
 @snapend
 <div class="small">
 @quote[Lambda calculus is a formal system in math logic for expressing computation based on function abstraction using variable binding and substitution. It is a universal model of computation that can be used to simulate any Turing machine.](Wikipedia)
-</div>
+
 
 `\[
   \lambda x.E
 \]`
 
-This is a lambda @color[#f26225](abstraction) , where `\(E\)` is an expression and `\(x\)` is a variable.
+This is a lambda abstraction, where `\(E\)` is an expression and `\(x\)` is a variable.
+</div>
 +++?image=assets/bg/orange.jpg&position=top&size=100% 16%
 @snap[north-west span-100]
 #### `\(\lambda\)` Calculus 101
