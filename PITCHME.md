@@ -54,24 +54,24 @@
 ---
 @img[clean-img lambda](assets/lambda-logo-2.png)
 ### @color[#f26225](Lambdas)
-+++?image=assets/half-life.png&size=100% auto
++++?image=assets/half-life.png&position=bottom&size=100% auto
 @snap[north-west span-100]
 #### `\(\lambda\)` Calculus 101
 @snapend
 <div class="small">
 @quote[Lambda calculus is a formal system in math logic for expressing computation based on function abstraction using variable binding and substitution. It is a universal model of computation that can be used to simulate any Turing machine.](Wikipedia)
-
+</div>
 
 `\[
   \lambda x.E
 \]`
 
 This is a lambda abstraction, where `\(E\)` is an expression and `\(x\)` is a variable.
-</div>
 +++?image=assets/bg/orange.jpg&position=top&size=100% 16%
 @snap[north-west span-100]
 #### `\(\lambda\)` Calculus 101
 @snapend
+@snap[center span-100]
 The following lambda term
 
 `\[
@@ -79,6 +79,7 @@ The following lambda term
 \]`
 
 means that `\(x\)` is bound to `\(3\)`, so any occurrence of `\(x\)` inside the expression can be replaced with `\(3\)`. Therefore, the expression body can be evaluated with a result of `\(8\)`.
+@snapend
 +++?image=assets/bg/orange.jpg&position=top&size=100% 16%
 @snap[north-west span-100]
 #### `\(\lambda\)` Calculus 101
