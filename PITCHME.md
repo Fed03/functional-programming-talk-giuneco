@@ -63,16 +63,23 @@
 @snap[north-west span-100]
 #### `\(\lambda\)` Calculus 101
 @snapend
+
 `\[
   \lambda x.E
 \]`
+
 This is a @color[#f37b21](lambda) abstraction, where `\(E\)` is an expression and `\(x\)` is a variable.
 
 The following lambda term
+
 `\[
-  (\lambda x.\ +\ x\ 5)\ 3
+  (\lambda x.\ + x\quad5)\ 3
 \]`
+
 means that `\(x\)` is bound to `\(3\)`, so we replace any occurence of `\(x\)` inside the expression with `\(3\)`. After we can evaluate the expression body with a result of `\(8\)`.
 +++
-λ calculus, therefore, resembles a function definition, where `\(E\)` is the function body and `\(\lambda x.\)` its parameter.
+@snap[north-west span-100]
+#### `\(\lambda\)` Calculus 101
+@snapend
+@color[#f37b21](`\(\lambda\)`) calculus, therefore, resembles a function definition, where `\(E\)` is the function body and `\(\lambda x.\)` its parameter.
 ---?include=fragments/higher.md
