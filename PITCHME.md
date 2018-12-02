@@ -96,11 +96,16 @@ print(add10(20)) # 30
 @ulend
 @snapend
 +++
-In FP, loop constructs does not exist.<br>They are replaced by special high order functions that guarantee purity and immutability, besides being more expressive.
+In FP, loop constructs does not exist.<br>
+
+They are replaced by special high order functions that guarantee purity and immutability, besides being more expressive.<br><br>
 
 There exist many of them but they are all just different mixes of two base functions
-+++
++++?image=assets/bg/orange.jpg&position=top&size=100% 16%
+@snap[north span-100]
 ### Map - Reduce
+@snapend
+
 ```python
 things = [1,2,3,4]
 
