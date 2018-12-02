@@ -33,7 +33,7 @@ Where do you look for bugs?
 @snapend
 +++?image=assets/bg/white.jpg&position=left&size=50% 100%
 @snap[east split-screen-text text-white]
-#### @color[#f26225](FP) is not only pure functions
+#### @color[#f37b21](FP) is not only pure functions
 @ul[split-screen-list](false)
 - All useful SW has to interact with the outside world
 - Try to confine @color[#9e35de](side)-effects

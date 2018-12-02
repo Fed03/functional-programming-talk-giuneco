@@ -37,7 +37,7 @@ Referential Transparency is a fancy term to describe that a pure function can be
 @snapend
 +++
 @snap[north-west span-100]
-#### @color[#f26225](Referential transparency)
+#### @color[#f37b21](Referential transparency)
 @snapend
 ```python
 sylvanas = {"name": "sylvanas", "hp": 10, "team": "horde"}

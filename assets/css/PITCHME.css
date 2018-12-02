@@ -49,11 +49,11 @@ p.align-left{
   padding: 3px 10px;
   margin-right: 15px;
   border-radius: 3px;
-  background-color: #F26225;
+  background-color: #f37b21;
   content: counter(step-counter);
 }
 .reveal ul > li::before{
-  color: #F26225;
+  color: #f37b21;
   content: "\25AA";
   margin-right: 15px;
 }
