@@ -13,6 +13,9 @@ p.align-left{
   box-shadow: none;
   background: none;
 }
+.reveal section img.lambda {
+  width: 20vw;
+}
 .reveal section img.graph-img {
   border-color: #b3b3b3;
   box-shadow: none;

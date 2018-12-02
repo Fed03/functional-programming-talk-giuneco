@@ -52,11 +52,11 @@
 ---?include=fragments/immutability.md
 ---?include=fragments/benefits.md
 ---
-@img[clean-img](assets/lambda-logo.png)
+@img[clean-img lambda](assets/lambda-logo.png)
 ### @color[#f37b21](Lambdas)
 +++
 @snap[north-west span-100]
-#### λ Calculus 101
+#### `\(\lambda\)` Calculus 101
 @snapend
 @quote[Lambda calculus is a formal system in math logic for expressing computation based on function abstraction using variable binding and substitution. It is a universal model of computation that can be used to simulate any Turing machine.](Wikipedia)
 
@@ -65,12 +65,15 @@
 \]`
 
 This is a @color[#f37b21](lambda) abstraction, where *E* is an expression and *x* is a variable.
-
++++
+@snap[north-west span-100]
+#### `\(\lambda\)` Calculus 101
+@snapend
 The following lambda term
 `\[
   (\lambda x. + x 5) 3
 \]`
 means that *x* is bound to *3*, so we replace any occurence of *x* inside the expression with *3*. After we can evaluate the expression body with a result of *8*.
 +++
-λ calculus, therefore, resembles a function definition, where *E* is the function body and λ*x.* its parameter.
+λ calculus, therefore, resembles a function definition, where *E* is the function body and λ *x.* its parameter.
 ---?include=fragments/higher.md
