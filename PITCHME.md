@@ -82,9 +82,9 @@ add10(32) # 42
 ```
 +++
 ```python
-containsCur = curry(lambda pattern, string: pattern in string)
+containsCur = curry(lambda search, string: search in string)
 filterCur = curry(lambda fn, iterable: filter(fn, iterable))
-replaceCur = curry(lambda pattern, new, string: re.sub(pattern, new, string))
+replaceCur = curry(lambda search, new, string: re.sub(search, new, string))
 
 containsCur('r', 'hello world') # true
 
@@ -92,12 +92,18 @@ hasLetterR = containsCur('r')
 hasLetterR('hello world') # true
 hasLetterR('just j and s and t etc') # false
 
-filterCur(hasLetterR, ['rock and roll', 'smooth jazz']) # ['rock and roll']
+filterCur(hasLetterR, ['rock and roll', 'smooth jazz']) 
+# ['rock and roll']
 
 removeStringsWithoutRs = filterCur(hasLetterR)
-removeStringsWithoutRs(['rock and roll', 'smooth jazz', 'drum circle']) # ['rock and roll', 'drum circle']
+removeStringsWithoutRs(['rock and roll', 'smooth jazz', 'drum circle']) 
+# ['rock and roll', 'drum circle']
 
 noVowels = replaceCur('[aeiou]')
 censored = noVowels('*')
 censored('Chocolate Rain') # 'Ch*c*l*t* R**n'
 ```
+@[1-3](Curryed versions of standard funcs)
+@[5, 11-12](When called with all the expected args, it behaves like the standard func)
+@[7-9,14-16](Create new specialized function and reuse it)
+@[18-20](Preload arguments more than once)
