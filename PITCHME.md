@@ -1,5 +1,5 @@
-## Functional Programming
-### & @color[#f26225](Lambdas)
+### Introduction to
+## @color[#f26225](Functional) Programming
 ---
 @snap[north-west]
 ### We will scratch only the surface of FP
@@ -31,7 +31,6 @@
 @snap[west span-100]
 ## @color[firebrick](MATH?!?!)
 @snapend
-<!-- ![angry](assets/angry-brian-opt.gif) -->
 ---
 @snap[north-west]
 ### Yes, @color[firebrick](Math).
@@ -101,8 +100,14 @@ noVowels = replaceCur('[aeiou]')
 censored = noVowels('*')
 censored('Chocolate Rain') # 'Ch*c*l*t* R**n'
 ```
-@[1-3](Curryed versions of standard funcs)
-@[5, 11](When called with all the expected args, it behaves like the standard func)
-@[7-9,13-14](Create new specialized function and reuse it)
+@[1-3](Curryed versions of base funcs)
+@[5, 11](When called with all the expected args, it behaves like the base func)
+@[7-9,13-14](Create new specialized functions and reuse them)
 @[16-18](Preload arguments more than once)
 <br><br>
++++
+@snap[north-west span-100]
+#### @color[#a77f0e](Currying)
+@snapend
+New functions can be created just by giving to base functions some arguments.
+

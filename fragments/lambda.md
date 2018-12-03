@@ -51,15 +51,15 @@ They are often called anonymous functions, although this definition is not compl
 @snapend
 C#
 ```C#
-Function<string, int> Length = (string) => string.Length
+Function<string, int> Length = (str) => str.Length
 ```
 
 Javascript
 ```javascript
-var Length = (string) => string.length
+var Length = (str) => str.length
 ```
 
 Python
 ```python
-length = lambda string: len(string)
+length = lambda str: len(str)
 ```
