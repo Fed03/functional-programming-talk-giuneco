@@ -82,22 +82,22 @@ add10(32) # 42
 ```
 +++
 ```python
-contains = curry(lambda pattern, string: re.match(pattern, string))
-filter = curry(filter)
-replace = curry(lambda old, new, string: string.replace(old, new))
+containsCur = curry(lambda pattern, string: pattern in string)
+filterCur = curry(lambda fn, iterable: filter(fn, iterable))
+replaceCur = curry(lambda pattern, new, string: re.sub(pattern, new, string))
 
-contains('\r', 'hello world') # true
+containsCur('r', 'hello world') # true
 
-hasLetterR = contains('r')
+hasLetterR = containsCur('r')
 hasLetterR('hello world') # true
 hasLetterR('just j and s and t etc') # false
 
-filter(hasLetterR, ['rock and roll', 'smooth jazz']) # ['rock and roll']
+filterCur(hasLetterR, ['rock and roll', 'smooth jazz']) # ['rock and roll']
 
-removeStringsWithoutRs = filter(hasLetterR)
+removeStringsWithoutRs = filterCur(hasLetterR)
 removeStringsWithoutRs(['rock and roll', 'smooth jazz', 'drum circle']) # ['rock and roll', 'drum circle']
 
-noVowels = replace(/[aeiou]/ig); // (r,x) => x.replace(/[aeiou]/ig, r)
-censored = noVowels('*'); // x => x.replace(/[aeiou]/ig, '*')
-censored('Chocolate Rain'); // 'Ch*c*l*t* R**n'
+noVowels = replaceCur('[aeiou]')
+censored = noVowels('*')
+censored('Chocolate Rain') # 'Ch*c*l*t* R**n'
 ```
