@@ -53,3 +53,51 @@
 ---?include=fragments/benefits.md
 ---?include=fragments/lambda.md
 ---?include=fragments/higher.md
+---
+# Spice it up with @color[#a77f0e](currying)
++++
+The concept of currying is simple: call a function with less arguments that it expects, and return a new function that takes the remaining ones.
+
+The makeAdder function we've just seen is an example of currying:
+```python
+def makeAdder(constantValue):
+  return lambda value: constantValue + value
+
+add10 = makeAdder(10)
+increment = makeAdder(1)
+
+increment(3) # 4
+add10(32) # 42
+```
++++
+Luckily, there is a function named `curry` that enables this behavior for any common defined function
+```python
+add = curry(lambda x, y: x + y)
+
+add10 = makeAdder(10)
+increment = makeAdder(1)
+
+increment(3) # 4
+add10(32) # 42
+```
++++
+```python
+contains = curry(lambda pattern, string: re.match(pattern, string))
+filter = curry(filter)
+replace = curry(lambda old, new, string: string.replace(old, new))
+
+contains('\r', 'hello world') # true
+
+hasLetterR = contains('r')
+hasLetterR('hello world') # true
+hasLetterR('just j and s and t etc') # false
+
+filter(hasLetterR, ['rock and roll', 'smooth jazz']) # ['rock and roll']
+
+removeStringsWithoutRs = filter(hasLetterR)
+removeStringsWithoutRs(['rock and roll', 'smooth jazz', 'drum circle']) # ['rock and roll', 'drum circle']
+
+noVowels = replace(/[aeiou]/ig); // (r,x) => x.replace(/[aeiou]/ig, r)
+censored = noVowels('*'); // x => x.replace(/[aeiou]/ig, '*')
+censored('Chocolate Rain'); // 'Ch*c*l*t* R**n'
+```
