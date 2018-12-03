@@ -105,3 +105,4 @@ censored('Chocolate Rain') # 'Ch*c*l*t* R**n'
 @[5, 11](When called with all the expected args, it behaves like the standard func)
 @[7-9,13-14](Create new specialized function and reuse it)
 @[16-18](Preload arguments more than once)
+<br><br>
