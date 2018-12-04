@@ -118,4 +118,8 @@ mapCur = curry(lambda fn, array: map(fn, array))
 getChildren = lambda x: x.childNodes
 allTheChildren = map(getChildren)
 ```
-<p class="fragment">We said that @color[#4487f2](pure) functions should be called with exactly 1 argument. Currying does exactly this: each single argument returns a new function expecting the remaining arguments.</p>
++++
+@snap[north-west span-100]
+#### @color[#a77f0e](Currying)
+@snapend
+We said that @color[#4487f2](pure) functions should be called with exactly 1 argument. Currying does exactly this: each single argument returns a new function expecting the remaining arguments.
