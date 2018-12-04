@@ -101,3 +101,7 @@ p.align-left{
 .split-screen-fa #boxed-text {
   padding-right: .5em;
 }
+
+span.MathJax {
+  padding: 0 0.4em;
+}
