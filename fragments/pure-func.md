@@ -11,7 +11,8 @@ A function is @color[#4487f2](pure) if it follows some policies that relates the
 @snap[west list-content-concise span-100]
 @ol
 - Works only with its input (no access to outer context)
-- Must have at least 1 param (0-arity not allowed)
+- Must have at least 1 argument (0-arity not allowed)
+- Should be called with 1 argument (more on this later)
 - Must return an output
 - Must declare its dependencies through parameters
 - Without side-effects

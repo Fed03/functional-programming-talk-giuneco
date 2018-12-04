@@ -111,3 +111,11 @@ censored('Chocolate Rain') # 'Ch*c*l*t* R**n'
 @snapend
 New functions can be created just by giving to base functions some arguments.
 
+Moreover any function that works on single elements can be transformed into a function that works on arrays simply by wrapping it with the curryed version of map:
+```python
+mapCur = curry(lambda fn, array: map(fn, array))
+
+getChildren = lambda x: x.childNodes
+allTheChildren = map(getChildren)
+```
+<p class="fragment">We said that pure functions should be called with exactly 1 argument. Currying does exactly this: each single argument returns a new function expecting the remaining arguments.</p>
