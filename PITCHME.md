@@ -53,3 +53,33 @@
 ---?include=fragments/lambda.md
 ---?include=fragments/higher.md
 ---?include=fragments/curry.md
+---
+# Compose all the things
++++
+Code reuse sounds great but is difficult to achieve.
+
+Make the code too specific and it can't be reused.<br>
+Make it too general and it can be difficult to use it in the first place.
++++
+In math, function composition is the application of one function to the result of another to produce a third function.
+
+Given the functions `\(f: A \mapsto B\)` and `\(h: B \mapsto C\)`, we can compose them into a new function `\((h \circ f): A \mapsto C\)` defined as
+
+`\[
+  (h \circ f)(x) = h(f(x))
+\]`
++++
+That same thing is possible in code
+```python
+compose = lambda h, f: lambda x: h(f(x))
+
+mult4 = lambda x: x * 4
+add30 = lambda x: x + 30
+
+answer = compose(add30, mult4)
+
+print(answer(3)) # 42
+```
+@[1](Simple version of compose function)
+@[3-6](Composing two functions to find...)
+@[8](... the answer!)

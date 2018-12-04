@@ -55,7 +55,7 @@ censored('Chocolate Rain') # 'Ch*c*l*t* R**n'
 #### @color[#a77f0e](Currying)
 @snapend
 <div class="small">
-New functions can be created just by giving to base functions some arguments.
+Currying allows to specialize base functions without redefining logic.
 
 Moreover any function that works on single elements can be transformed into a function that works on arrays simply by wrapping it with the curryed version of map:
 </div>
