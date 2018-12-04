@@ -61,8 +61,6 @@
 @snapend
 Code reuse sounds great but is difficult to achieve.
 
-
-
 Make the code too specific and it can't be reused.<br>
 Make it too general and it can be difficult to use it in the first place.
 +++
@@ -71,7 +69,7 @@ Make it too general and it can be difficult to use it in the first place.
 @snapend
 In math, function composition is the application of one function to the result of another to produce a third function.
 
-Given the functions `\(f: A \mapsto B\)` and `\(h: B \mapsto C\)`, we can compose them into a new function `\((h \circ f): A \mapsto C\)` defined as
+Given the functions `\(f: A \mapsto B\)` and `\(h: B \mapsto C\)`, we can compose them into a new function `\((\ h \circ f\ ): A \mapsto C\)` defined as
 
 `\[
   (\ h \circ f\ )(x) = h(\ f(x)\ )
@@ -94,4 +92,4 @@ print(answer(3)) # 42
 @[1](Simple version of compose function)
 @[3-6](Composing two functions to find...)
 @[8](... the answer!)
-<br><br>
+<br>
