@@ -7,7 +7,7 @@
 # For further details, see https://gitpitch.com/docs/settings.
 #
 
-#published : true
+published : true
 
 #
 # Theme Setting
@@ -32,7 +32,7 @@ theme-override : assets/css/PITCHME.css
 # Footnote Setting
 # Doc: https://gitpitch.com/docs/settings/footnote
 #
-#footnote : "GitPitch - The Fastest Way From Idea To Presentation"
+footnote : "Introduction to Functional Programming"
 
 #
 # Highlight (Code) Setting
