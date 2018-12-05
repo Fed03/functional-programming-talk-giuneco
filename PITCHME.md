@@ -97,19 +97,21 @@ print(answer(3)) # 42
 @snap[north-west span-100]
 #### @color[#e53935](Compose) characteristics
 @snapend
-@snap[west small span-100]
-<p>In `\(( h \circ f )\)` the first applied function is the rightmost; `compose` respects this creating a right to left data flow.</p>
-<div class="fragment">
-<p>Composition is *associative* meaning that</p>
-`\[
-  (\ h \circ (\ g \circ f\ )\ ) = (\ (\ h \circ g\ ) \circ f\ ) = (\ h \circ g \circ f\ )
-\]`
+<div class="align-left">
+  In `\((\ h \circ f\ )\)` the first applied function is the rightmost; `compose` respects this creating a right to left data flow.
+
+  <div class="fragment">
+    Composition is *associative* meaning that
+
+    `\[
+      h \circ (\ g \circ f\ ) = (\ h \circ g\ ) \circ f = h \circ g \circ f
+    \]`
+  </div>
 </div>
-@snapend
 +++
 @snap[north-west span-100]
 #### @color[#e53935](Compose) characteristics
 @snapend
 Associativity provides the ability to be more concise or more expressive depending on the situation
 +++
-<p class="fragment">Since the outer function must receive as input the output of the inner one, these two must be compatible. Aside from Type, code functions returns just 1 thing but they can have multiple inputs.</p>
+Since the outer function must receive as input the output of the inner one, these two must be compatible. Aside from Type, code functions return just 1 thing but they can have multiple inputs.
