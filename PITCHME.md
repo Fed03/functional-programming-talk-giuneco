@@ -16,7 +16,7 @@
 @snapend
 ---
 # @color[#f26225](DISCLAIMER)
----?image=assets/bg/orange.jpg&position=top&size=100% 20%
+---?image=assets/bg/orange.jpg&position=top&size=100% 18%
 @snap[north span-100]
 ## DISCLAIMER
 @snapend
