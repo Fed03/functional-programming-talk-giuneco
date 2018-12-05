@@ -136,4 +136,4 @@ Aside from *type*, code functions return just 1 thing but they can have multiple
 +++
 @box[bg-orange normal-text](In order to compose functions, they should be called with only one parameter.<br><br>Here currying comes to save the world. Proper lambdas works well, too.)
 +++?image=assets/lego.png&size=contain&color=black
-@box[bg-semi h2](Thanks to currying, pure functions are, therefore, composable like LEGO blocks!)
+@box[bg-semi h2](Thanks to currying,<br>pure functions are composable like<br>LEGO blocks!)
