@@ -55,4 +55,15 @@
 ---?include=fragments/curry.md
 ---?include=fragments/compose.md
 ---
-# The End @css[fragment](?)
+#### We've only scratched the surface of functional programming
+@ul
+- Dealing with side-effects
+- Monads
+- Functors
+- IO containers
+- Best practices
+- And many other things...
+@ulend
+---
+# The @color[#f26225](End)
+# @css[fragment](?)
