@@ -123,16 +123,20 @@ lastElement = compose(first, reverse)
 upperVowels = compose(toUpperCase, vowels)
 lastElementUpperVowels = compose(upperVowels, lastElement)
 ```
-@[1-2]
-@[1,4-5]
-@[1,7-9]
+@[1-2](Like this)
+@[1,4-5](or this)
+@[1,7-9](or even this)
 +++
 @snap[north-west span-100]
 #### @color[#e53935](Compose) characteristics
 @snapend
-Since the outer function must receive as input the output of the inner one, these two must be compatible.    
-Aside from Type, code functions return just 1 thing but they can have multiple inputs.
+Since the outer function must receive as input the output of the inner one, these two must be compatible.
 
+Aside from *type*, code functions return just 1 thing but they can have multiple inputs.
++++
+@snap[north-west span-100]
+#### @color[#e53935](Compose) characteristics
+@snapend
 @box[bg-orange](In order to compose functions, they should be called with only one parameter.<br>Here currying comes to save the world. Proper lambdas works well, too.)
-+++?image=assets/lego.png&size=contain
-## Thanks to currying, pure functions are, therefore, composable like LEGO blocks!
++++?image=assets/lego.png&size=contain&color=black
+@box[bg-semi](## Thanks to currying, pure functions are, therefore, composable like LEGO blocks!)
