@@ -98,11 +98,10 @@ print(answer(3)) # 42
 #### @color[#e53935](Compose) characteristics
 @snapend
 <div class="align-left">
-  In `\((\ h \circ f\ )\)` the first applied function is the rightmost; `compose` respects this creating a right to left data flow.
-
+  <p>In `\((\ h \circ f\ )\)` the first applied function is the rightmost; `compose` respects this creating a right to left data flow.</p>
+  <br><br>
   <div class="fragment">
-    Composition is *associative* meaning that
-
+    <p>Composition is *associative* meaning that</p>
     `\[
       h \circ (\ g \circ f\ ) = (\ h \circ g\ ) \circ f = h \circ g \circ f
     \]`
