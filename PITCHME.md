@@ -99,7 +99,7 @@ print(answer(3)) # 42
 @snapend
 <div class="align-left">
   <p>In `\((\ h \circ f\ )\)` the first applied function is the rightmost; `compose` respects this creating a right to left data flow.</p>
-  <br><br>
+  <br>
   <div class="fragment">
     <p>Composition is *associative* meaning that</p>
     `\[
@@ -112,5 +112,27 @@ print(answer(3)) # 42
 #### @color[#e53935](Compose) characteristics
 @snapend
 Associativity provides the ability to be more concise or more expressive depending on the situation
+```python
+# Given a strings array
+lastElementUpperVowels = compose(vowels, toUpperCase, first, reverse)
+
+lastElement = compose(first, reverse)
+lastElementUpperVowels = compose(toUpperCase, vowels, lastElement)
+
+lastElement = compose(first, reverse)
+upperVowels = compose(toUpperCase, vowels)
+lastElementUpperVowels = compose(upperVowels, lastElement)
+```
+@[1-2]
+@[1,4-5]
+@[1,7-9]
 +++
-Since the outer function must receive as input the output of the inner one, these two must be compatible. Aside from Type, code functions return just 1 thing but they can have multiple inputs.
+@snap[north-west span-100]
+#### @color[#e53935](Compose) characteristics
+@snapend
+Since the outer function must receive as input the output of the inner one, these two must be compatible.    
+Aside from Type, code functions return just 1 thing but they can have multiple inputs.
+
+@box[bg-orange](In order to compose functions, they should be called with only one parameter.<br>Here currying comes to save the world. Proper lambdas works well, too.)
++++?image=assets/lego.png&size=contain
+## Thanks to currying, pure functions are, therefore, composable like LEGO blocks!
