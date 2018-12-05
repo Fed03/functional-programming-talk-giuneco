@@ -55,6 +55,7 @@
 ---?include=fragments/curry.md
 ---?include=fragments/compose.md
 ---
+@snap[north-west span-100]
 #### We've only scratched the surface of functional programming
 @ul
 - Dealing with side-effects
@@ -64,6 +65,7 @@
 - Best practices
 - And many other things...
 @ulend
+@snapend
 ---
 # The @color[#f26225](End)
 # @css[fragment](?)
