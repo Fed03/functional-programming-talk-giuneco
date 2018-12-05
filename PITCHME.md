@@ -139,4 +139,4 @@ Aside from *type*, code functions return just 1 thing but they can have multiple
 @snapend
 @box[bg-orange](In order to compose functions, they should be called with only one parameter.<br>Here currying comes to save the world. Proper lambdas works well, too.)
 +++?image=assets/lego.png&size=contain&color=black
-@box[bg-semi](## Thanks to currying, pure functions are, therefore, composable like LEGO blocks!)
+@box[bg-semi](#size[2em](Thanks to currying, pure functions are, therefore, composable like LEGO blocks!)
