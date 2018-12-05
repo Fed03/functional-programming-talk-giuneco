@@ -55,7 +55,7 @@
 ---?include=fragments/curry.md
 ---
 # @color[#e53935](Compose) all the things
-+++ 
++++
 @snap[north-west span-100]
 #### @color[#e53935](Composing)
 @snapend
@@ -91,5 +91,25 @@ print(answer(3)) # 42
 ```
 @[1](Simple version of compose function)
 @[3-6](Composing two functions to find...)
-@[8](... the answer!)
+@[8](...the answer!)
 <br>
++++
+@snap[north-west span-100]
+#### @color[#e53935](Compose) characteristics
+@snapend
+@snap[west small span-100]
+<p>In `(( h circ f ))` the first applied function is the rightmost; `compose` respects this creating a right to left data flow.</p>
+<div class="fragment">
+<p>Composition is *associative* meaning that</p>
+`[
+  ( h circ ( g circ f ) ) = ( ( h circ g ) circ f ) = ( h circ g circ f )
+]`
+</div>
+@snapend
++++
+@snap[north-west span-100]
+#### @color[#e53935](Compose) characteristics
+@snapend
+Associativity provides the ability to be more concise or more expressive depending on the situation
++++
+<p class="fragment">Since the outer function must receive as input the output of the inner one, these two must be compatible. Aside from Type, code functions returns just 1 thing but they can have multiple inputs.</p>
