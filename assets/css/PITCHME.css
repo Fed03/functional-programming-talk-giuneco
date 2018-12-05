@@ -107,9 +107,14 @@ span.MathJax {
 }
 
 .bg-semi {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.85);
 }
 
 .h2 {
-  font-size: 2em;
+  font-size: 1.1em !important;
+  text-transform: uppercase;
+}
+
+.normal-text {
+  font-size: 1em !important;
 }
