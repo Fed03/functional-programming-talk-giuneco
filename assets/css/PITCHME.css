@@ -110,11 +110,10 @@ span.MathJax {
   background-color: rgba(0, 0, 0, 0.85);
 }
 
-.h2 {
+.h2 #boxed-text{
   font-size: 1.1em !important;
   text-transform: uppercase;
 }
-
-.normal-text {
+.normal-text #boxed-text{
   font-size: 1em !important;
 }
