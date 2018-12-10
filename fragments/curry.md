@@ -2,7 +2,7 @@
 +++
 The concept of currying is simple: call a function with less arguments that it expects, and return a new function that takes the remaining ones.
 
-The makeAdder function we've just seen is an example of currying:
+The `makeAdder` function we've just seen is an example of currying:
 ```python
 def makeAdder(constantValue):
   return lambda value: constantValue + value
@@ -14,7 +14,7 @@ increment(3) # 4
 add10(32) # 42
 ```
 +++
-Luckily, there is a function named `curry` that enables this behavior for any common defined function
+Luckily, there is a function named `curry` that enables this behavior for any commonly defined function
 ```python
 add = curry(lambda x, y: x + y)
 

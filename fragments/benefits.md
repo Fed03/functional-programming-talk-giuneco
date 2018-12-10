@@ -4,7 +4,7 @@
 ## Benefits
 @snapend
 @snap[west]
-At this point you may ask why anyone would want to "relearn" how to code and with all of this constraints
+At this point you may ask why anyone would want to "relearn" how to code and with all of these constraints
 @snapend
 +++
 @snap[north-west]

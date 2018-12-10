@@ -2,7 +2,7 @@
 +++
 The foundations of FP are the so called @color[#4487f2](pure) functions.
 <br><br><br>
-A function is @color[#4487f2](pure) if it follows some policies that relates them closely to the concept of math functions.
+A function is @color[#4487f2](pure) if it follows some policies that relates it closely to the concept of math functions.
 +++
 @snap[north-west]
 @color[#4487f2](Pure) Function Policies
@@ -42,7 +42,7 @@ def addNoReturn(x, y):
 ### Pure functions are @color[#f26225](deterministic)
 @snapend
 
-@box[bg-orange text-white rounded](Given points 1,2,3,4, all pure functions will always produce the same output when called with the same inputs)
+@box[bg-orange text-white](Given points 1,2,3,4, all pure functions will always produce the same output when called with the same inputs)
 +++
 #### Determinism is what makes @color[#4487f2](pure) functions equivalent to the math ones
 
