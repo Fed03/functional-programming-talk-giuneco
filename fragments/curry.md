@@ -57,7 +57,7 @@ censored('Chocolate Rain') # 'Ch*c*l*t* R**n'
 <div class="small">
 Currying allows to specialize base functions without redefining logic.
 
-Moreover any function that works on single elements can be transformed into a function that works on arrays simply by wrapping it with the curryed version of map:
+Moreover, any function that works on single elements can be transformed into a function that works on arrays simply by wrapping it with the curryed version of map:
 </div>
 ```python
 mapCur = curry(lambda fn, array: map(fn, array))
@@ -69,6 +69,6 @@ allTheChildren = map(getChildren)
 @snap[north-west span-100]
 #### @color[#a77f0e](Currying)
 @snapend
-We said that @color[#4487f2](pure) functions should be called with exactly 1 argument.<br>
+We said that @color[#4487f2](pure) functions should be called with just 1 argument.<br>
 
-Currying does exactly this: each single argument returns a new function expecting the remaining arguments.
+Currying does exactly this: each single argument returns a new function expecting the remaining ones.

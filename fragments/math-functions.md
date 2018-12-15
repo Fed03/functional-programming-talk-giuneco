@@ -3,19 +3,19 @@
 Math Functions are simple relations between sets: from the @color[#6C8EBF](Domain) to the @color[#B85450](Codomain)
 @img[span-60 clean-img](assets/func-diagram.png)
 +++
-#### Function are mappings between an @color[#6C8EBF](input) and an @color[#B85450](output).
+#### Functions are mappings between an @color[#6C8EBF](input) and an @color[#B85450](output).
 
 <br>
 
-They can be represented using diagrams
+They can be represented using diagrams,
 +++
-Grahps
+Grahps,
 
 <br>
 
 @img[graph-img](assets/func-graph.png)
 +++
-Or even simple tables
+Or even simple tables,
 
 
 <table class="fragment text-center">
@@ -65,11 +65,11 @@ print(pow2[-2])
 # 4
 ```
 +++
-Obviously functions written like this are not very useful
+Obviously functions written like this are not very useful!
 
 <br>
 
-We need something more powerful to represent them
+We need a more powerful tool to represent them
 +++
 ## Formulae!
 <br>

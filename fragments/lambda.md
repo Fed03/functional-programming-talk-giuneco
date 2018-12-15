@@ -31,7 +31,7 @@ This is a lambda abstraction, where `\(E\)` is an expression and `\(x\)` is a va
 #### `\(\lambda\)` Calculus 101
 @snapend
 @snap[center span-100]
-<p>`\(\lambda\)` term, therefore, resembles a function definition without name, where `\(E\)` is the function body and `\(\lambda x.\)` its parameter.</p>
+<p>The `\(\lambda\)` term, therefore, resembles a function definition without name, where `\(E\)` is the function body and `\(\lambda x.\)` its parameter.</p>
 <p class="fragment">Note that lambda terms must have exactly 1 parameter</p>
 @snapend
 +++

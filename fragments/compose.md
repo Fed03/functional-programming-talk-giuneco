@@ -74,7 +74,7 @@ lastElementUpperVowels = compose(upperVowels, lastElement)
 @snap[north-west span-100]
 #### @color[#e53935](Compose) characteristics
 @snapend
-Since the outer function must receive as input the output of the inner one, these two must be compatible.
+Since the outer function must receive the output of the inner one as input, these two must be compatible.
 
 Aside from *type*, code functions return just 1 thing but they can have multiple inputs.
 +++

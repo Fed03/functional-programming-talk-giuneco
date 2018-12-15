@@ -30,7 +30,7 @@ add10 = makeAdder(10)
 print(add10(20)) # 30
 ```
 
-`makeAdder` is a higher order function because returns another function.
+`makeAdder` is a higher order function because it returns another function.
 <p class="fragment">Note that the internal defined function is a CLOSURE</p>
 +++
 @snap[north-west span-100]
@@ -44,11 +44,11 @@ print(add10(20)) # 30
 @ulend
 @snapend
 +++
-In FP, loop constructs does not exist.<br><br>
+In FP, loop constructs do not exist.<br><br>
 
-They are replaced by special higher order functions that guarantee purity and immutability, besides being more expressive.<br><br><br>
+They are replaced by special higher order functions that guarantee purity and immutability, besides being more expressive.<br><br>
 
-There exist many of them but they are all just different mixes of two base functions
+Many of them exist, but they are all just different mixes of two base functions.
 +++?image=assets/bg/orange.jpg&position=top&size=100% 16%
 @snap[north span-100]
 ### Map & Reduce

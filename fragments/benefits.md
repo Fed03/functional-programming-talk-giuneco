@@ -4,7 +4,7 @@
 ## Benefits
 @snapend
 @snap[west]
-At this point you may ask why anyone would want to "relearn" how to code and with all of these constraints
+At this point you may ask, why would anyone want to "relearn" how to code?<br>With all of these constraints too!
 @snapend
 +++
 @snap[north-west]
@@ -12,7 +12,7 @@ Using @color[#4487f2](pure) functions and following the @color[#1dc579](immutabi
 @snapend
 @snap[west list-content-concise span-100]
 @ol
-- Pure functions are self-documenting (must declare their deps)
+- Pure functions are self-documenting (must declare their dependencies)
 - They are testable
 - They are cacheable (due to their deterministic nature)
 @olend
@@ -23,7 +23,7 @@ Using @color[#4487f2](pure) functions and following the @color[#1dc579](immutabi
 - Thanks to immutability, pure functions are inherently thread-safe (parallelize all the things!)
 - They are reasonable
   @ul[list-content-concise fragment](false)
-  - Knowing that they do not depend on anything external, decreases the cognitive load
+  - Knowing that they do not depend on anything external decreases the cognitive load
   - Referential transparency
   @ulend
 @olend

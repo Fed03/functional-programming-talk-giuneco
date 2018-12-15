@@ -14,7 +14,7 @@ There are no variables in FP
 
 Only constants
 +++
-Luckly, "variables" are short living because they exist only inside functions.
+Luckily, "variables" are short-lived because they exist only inside functions.
 <br><br>
 @size[1.5em](And functions are small, right?)
 +++
